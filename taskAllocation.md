@@ -19,6 +19,9 @@ Omofumike: created a superuser in django
 Innocentokama: created a superuser in django
 
 Topister Nandera: created a superuser in django
+Abidat: created a superuser in django
+Amyy_: created a superuser in django
+
 
 
 
