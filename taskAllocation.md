@@ -18,6 +18,7 @@ Topister Nandera: created a superuser in django
 # 25th July 2022
 # The designers
 The CMS pages were divided into sections and designers were put into groups and assigned pages to do wireframes. Below is a list of members and the assigned pages
+
 Landing page: Obinna Emmanuel and Promise Adeola
 Sign in page: Micheal Abiola Idiaka and Pamela Ogujuiba
 Registration page/registration for new website creation: Akintola Moyade and Ajenganyi Solange
