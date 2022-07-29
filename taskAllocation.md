@@ -5,6 +5,7 @@
 ## 29th July 2022
 ### The developers:
 setting up python for project development:
+dprincecoder (Prince): db schema, task documenting. 
 
 Ola: installed Django and pushed to Github.
 
@@ -19,10 +20,12 @@ Omofumike: created a superuser in django
 Innocentokama: created a superuser in django
 
 Topister Nandera: created a superuser in django
+
 Abidat: created a superuser in django
-Amyy_: created a superuser in django
 
+Amyy_: created a superuser in django, devs documenting. 
 
+Void: flowchart, helping hand in db schema, helping hand in devs documenting. 
 
 
 ## 25th July 2022
