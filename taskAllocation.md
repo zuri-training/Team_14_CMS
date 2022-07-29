@@ -1,9 +1,9 @@
 # General task allocation on building the CMS Project. 
  
-# Task allocation by designers and developers will be shown here and keep updating. 
+## Task allocation by designers and developers will be shown here and keep updating. 
 
-# 29th July 2022
-# The developers:
+## 29th July 2022
+### The developers:
 setting up python for project development:
 
 Ola: installed Django and pushed to Github.
@@ -22,8 +22,8 @@ Topister Nandera: created a superuser in django
 
 
 
-# 25th July 2022
-# The designers
+## 25th July 2022
+## The designers
 The CMS pages were divided into sections and designers were put into groups and assigned pages to do wireframes. Below is a list of members and the assigned pages
 
 Landing page: Obinna Emmanuel and Promise Adeola
