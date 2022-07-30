@@ -13,37 +13,37 @@ This project is expected to allow users to create or spin up a basic website
 ## How To Run
  To run locally on your machine, you can use the following command:
 
-**Clone the repository**
+Clone the repository
 
-`git clone https://github.com/zuri-training/Team_14_CMS.git`
+	git clone https://github.com/zuri-training/Team_14_CMS.git
+	
+Move to the project folder
 
-**Move to the project folder**
+	cd CMS_proj_14
 
-`cd CMS_proj_14`
+Create a Virtual environment
 
-**Create a Virtual environment**
+	Virtualenv env
 
-`Virtualenv env`
+Activate the Virtual environment
 
-**Activate the Virtual environment**
+	env/Scripts/activate
 
-`env/Scripts/activate`
+Install Dependencies
 
-**Install Dependencies**
+	pip install -r requirements.txt
 
-`pip install -r requirements.txt`
+Migrate Datebase
 
-**Migrate Datebase**
+	python manage.py migrate
 
-`python manage.py migrate`
+Create Superuser
 
-**Create Superuser**
+	python manage.py createsuperuser
 
-`python manage.py createsuperuser`
+Finally, run  server
 
-**Finally, run  server**
-
-`python manage.py runserver`
+	python manage.py runserver
 
 ## Feature Requested By Zuri
 
