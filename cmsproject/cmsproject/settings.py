@@ -37,6 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # contains the main working of the project
+    'cmsproject',
+    
+    # containing sign up and sign in 
+    'account',
+    
 ]
 
 MIDDLEWARE = [
@@ -105,7 +112,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# chamge the time zone to our local time zone
+TIME_ZONE = 'Africa/Lagos'
 
 USE_I18N = True
 
@@ -121,3 +129,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGIN_REDIRECT_URL = 'index.html'
+
+LOGOUT_REDIRECT_URL = 'index'
