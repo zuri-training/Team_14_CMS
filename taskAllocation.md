@@ -31,6 +31,7 @@ Void: flowchart, helping hand in db schema, helping hand in devs documenting.
 
 ## 1st August 2022
 Topister & Amyy_: working on creating a models and views for the blog. 
+
 Ola: connecting template with views with links
 
 ## The designers
