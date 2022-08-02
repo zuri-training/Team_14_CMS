@@ -47,6 +47,8 @@ dprincecoder: creating the navbar and sample text section in the landing page.
 
 Dumisani: creating the client testimony section in the landing page.
 
+Basit: creating the image gallery section in the landing page.
+
 ## The designers
 
 ## 25th July 2022
