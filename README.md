@@ -9,6 +9,8 @@ This project is expected to allow users to create or spin up a basic website
 ## db schema:
 [Database Schema](https://cacoo.com/diagrams/3bidFKDK0MhYkbBU/B208B?reload_rt=1659123507956_0&reload_dc=1659139986069_0)
 
+##figma design
+[design](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.figma.com/file/KUXA9TjkYyUWDkSNTewHbU/CMS%26amp;sa%3DD%26amp;source%3Deditors%26amp;ust%3D1659469559838528%26amp;usg%3DAOvVaw1VT_BeRd1sxOaw2FH4Zhsw&sa=D&source=docs&ust=1659469559887420&usg=AOvVaw2JIALqcELgklhbtcRQelAr)
 
 ## How To Run
  To run locally on your machine, you can use the following command:
