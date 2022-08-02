@@ -187,3 +187,91 @@ li {
     font-size: 14px;
     color: #E4E8F3;
 }
+
+
+/* Gallery styles */
+
+.main{
+    display: flex;
+    
+}
+
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.one-one{
+    display: flex;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.three{
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+.image-1{
+    padding-top: 145px;
+    padding-bottom: 78px;
+}
+
+.image-2{
+    padding-top: 162px;
+    padding-bottom: 43px;
+}
+
+.image-3 {
+    padding-left: 8px;
+    padding-bottom: 221px;
+}
+
+.image-4{
+    padding-top: 78px;
+    padding-bottom: 44px;
+}
+
+.image-5 {
+    padding-bottom: 242px;
+}
+
+.image-6{
+    padding-top: 167px;
+    padding-left: 36px;
+    padding-bottom: 40px;
+}
+
+.image-7{
+    padding-top: 100px;
+    padding-left: 90px;
+    padding-bottom: 50px;
+}
+
+.image-8{
+    padding-top: 115px;
+}
+
+.image-9{
+    padding-left: 78px;
+}
+
+.image-10{
+    padding-top: 65px;
+}
+
+.image-11{
+    padding-left: 80px;
+    padding-top: 39px;
+}
+
+/* End of gallery styling */
