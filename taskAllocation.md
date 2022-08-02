@@ -43,8 +43,9 @@ Ola: connecting template route with views.py, including links
 
 ## frontend:
 
-dprincecoder: creating the navbar and sample text section in the landing page
-Dumisani: creating the client testimony section in the landing page
+dprincecoder: creating the navbar and sample text section in the landing page.
+
+Dumisani: creating the client testimony section in the landing page.
 
 ## The designers
 
