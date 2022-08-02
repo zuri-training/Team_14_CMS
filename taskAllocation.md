@@ -6,6 +6,8 @@
 
 ### 29th July 2022
 
+## backend:
+
 setting up python for project development:
 dprincecoder (Prince): db schema, task documenting. 
 
@@ -30,9 +32,19 @@ Amyy_: created a superuser in django, devs documenting.
 Void: flowchart, helping hand in db schema, helping hand in devs documenting. 
 
 ## 1st August 2022
+
+## backend:
+
 Topister & Amyy_: working on creating a models and views for the blog. 
 
 Ola: connecting template route with views.py, including links
+
+## 2nd August 2022
+
+## frontend:
+
+dprincecoder: creating the navbar and sample text section in the landing page
+Dumisani: creating the client testimony section in the landing page
 
 ## The designers
 
