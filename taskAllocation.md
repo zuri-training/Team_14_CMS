@@ -49,6 +49,26 @@ Dumisani: creating the client testimony section in the landing page.
 
 Basit: creating the image gallery section in the landing page.
 
+
+## 3rd August 2022
+## Frontend Finished landing page  task. 
+
+Topingster: finished hero section created a PR, all checks pass then merged into the repository main branch. 
+
+Basit: finished image gallery section created a PR, all checks were pass then merged into the repository main branch. 
+
+Cen: finished portfolio section created a PR, all checks were pass then merged into the repository main branch. 
+
+Dumisani: finished Testimony section created a PR, all checks pass then merged into the repository main branch. 
+
+AdeFolarin: FAQS section absent (no response)
+
+Ruth: finished footer section created a PR, all checks pass then merged into the repository main branch. 
+
+dprincecoder: finished nav section + sample text section created a PR, all checks passed then merged into the repository main branch. 
+
+
+
 ## The designers
 
 ## 25th July 2022
