@@ -640,3 +640,50 @@ a{
   color: #fff;
 }
 /* End of gallery styling */
+
+/* faq */
+.faq__section {
+  padding: 132px 320px;
+}
+
+.faq__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq__container h2 {
+  margin-bottom: 48px;
+  font-family: 'Campton';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #090914;
+}
+
+.faq__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.faq__item p {
+  font-family: 'Campton';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1D1F42;
+}
+
+.faq__container hr {
+  margin-bottom: 40px;
+}
+
+
+
+/* faq */
