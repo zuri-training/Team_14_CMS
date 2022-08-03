@@ -352,6 +352,8 @@ span {
 .gallery {
   display: flex;
   background-color: #2B2E63;
+  width: 100%;
+  overflow: hidden;
 }
 
 .one {
