@@ -119,6 +119,10 @@ span {
   color: #fff;
 }
 
+.landing-nav-login-link{
+  color: #242653;
+}
+
 .dropdown-arrow {
   position: absolute;
   left: 30%;
