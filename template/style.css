@@ -419,6 +419,7 @@ span {
   line-height: 24px;
   text-transform: capitalize;
   color: #2b2e63;
+  background: transparent;
 }
 
 /* PORTFOLIO STYLES */
