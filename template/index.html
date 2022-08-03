@@ -7,6 +7,8 @@
     <link rel="icon" type="image/x-icon" href="./images/webBuildr.png">
     <link rel="stylesheet" href="style.css">
     <title>WebBuildr</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <main>
@@ -40,7 +42,26 @@
         </nav>
 
         <!-- hero section -->
-        heujiheun
+        <section class="hero-section">
+            <!-- left hero section -->
+            <div class="hero-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                <div class="hero-arrow">
+                    <img src="./images/hero/arrow.png" alt="arrow">
+                    <img src="./images/hero/arrow-head.png" alt="arrow-head">
+                </div>
+                <div>
+                    <p>Further <span>Your</span> Effort <br><span>Using</span> WebBuildr.</p>
+                    <p>The easiest and fastest way to bild your website. <br> No coding,Zero charges</p>
+                    <button><a href="#"></a>GET STARTED</a></button>
+                    
+                </div>
+                
+            </div>
+            <!-- Right hero section -->
+            <div class="hero-right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <img src="./images/hero/cuate.svg" alt="constructor">
+            </div>
+        </section>
 
       </header>
       
@@ -238,3 +259,7 @@
     </main>
 </body>
 </html>
+
+<script>
+    AOS.init();
+  </script>
