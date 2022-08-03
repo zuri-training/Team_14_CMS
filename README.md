@@ -1,4 +1,7 @@
 # Content Management System (CMS_Team_14)
+<p align="center">
+  <img width="100" height="100" src="https://github.com/zuri-training/Team_14_CMS/blob/main/template/images/webBuildr.png">
+</p>
 
 ## Aim
 This project is expected to allow users to create or spin up a basic website
