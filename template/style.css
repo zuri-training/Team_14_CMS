@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "Campton";
-  src: url("./webkit-campton/camptonblack-webfont.woff2") format("woff2"),
+  src: url("./webkit-campton/camptonblack-webfont.woff") format("woff2"),
     format("woff");
 }
 
