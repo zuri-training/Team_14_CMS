@@ -68,6 +68,24 @@ Ruth: finished footer section created a PR, all checks pass then merged into the
 dprincecoder: finished nav section + sample text section created a PR, all checks passed then merged into the repository main branch. 
 
 
+3rd August 2022
+ # Task allocation on creating the below pages 
+
+Topingster:  read more page 
+
+Basit: tutorial page
+
+Cen: e-commerce page
+
+Dumisani: portfolio page + slider carousel 
+
+AdeFolarin: Registration page
+
+Ruth: blog page  
+
+dprincecoder: sign in page  + registration confirm page + error page
+
+
 
 ## The designers
 
