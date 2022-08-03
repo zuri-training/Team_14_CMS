@@ -11,8 +11,7 @@
 
 @font-face {
   font-family: "Campton";
-  src: url("./images/nav/webkit-campton/camptonblack-webfont.woff2")
-      format("woff2"),
+  src: url("./webkit-campton/camptonblack-webfont.woff2") format("woff2"),
     format("woff");
 }
 
@@ -119,7 +118,7 @@ span {
   color: #fff;
 }
 
-.landing-nav-login-link{
+.landing-nav-login-link {
   color: #242653;
 }
 
@@ -237,7 +236,7 @@ span {
 }
 
 .portfolio__row .portfolio__h2 {
-  font-family: 'Campton';
+  font-family: "Campton";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -249,7 +248,7 @@ span {
 }
 
 .portfolio__h2 {
-  font-family: 'Campton';
+  font-family: "Campton";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -263,12 +262,12 @@ span {
 .portfolio__text p {
   max-width: 373px;
   margin-bottom: 56px;
-  font-family: 'Campton';
+  font-family: "Campton";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-  color: #1D1F42;
+  color: #1d1f42;
 }
 
 .portfolio__text-link {
@@ -278,13 +277,13 @@ span {
 }
 
 .portfolio__text a {
-  font-family: 'Campton';
+  font-family: "Campton";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   text-transform: capitalize;
-  color: #2B2E63;
+  color: #2b2e63;
 }
 
 /* PORTFOLIO STYLES */
@@ -457,7 +456,7 @@ span {
 
 .gallery {
   display: flex;
-  background-color: #2B2E63;
+  background-color: #2b2e63;
   width: 100%;
   overflow: hidden;
 }
@@ -537,7 +536,7 @@ span {
   padding-top: 39px;
 }
 /* Footer section */
-footer{
+footer {
   width: 100%;
   position: relative;
   bottom: 0;
@@ -546,7 +545,7 @@ footer{
   line-height: 30px;
   padding: 100px 0 30px;
 }
-.row{
+.row {
   width: 85%;
   margin: auto;
   display: flex;
@@ -554,7 +553,7 @@ footer{
   align-items: flex-start;
   justify-content: space-between;
 }
-.col h3{
+.col h3 {
   width: auto;
   height: 5px;
   margin-bottom: 40px;
