@@ -633,4 +633,9 @@ footer {
   margin-bottom: 40px;
   position: relative;
 }
+a{
+  display: inline-block;
+  background: var(--blue);
+  color: #fff;
+}
 /* End of gallery styling */
