@@ -6,12 +6,13 @@ from django.db import models
 class Post (models.Model):
     title = models.CharField(max_length=500)
     image = models.ImageField(upload_to='img')
-    body = models.TextField(
+    body = models.TextField()
     post_id = models.UUIDField(default=uuid.uuid4, primary_key=True, unique=True, editable=False)
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
     slug = models.SlugField()
     
-    def _str_(self):
+    def __str__(self):
+        """ Displays the title of an instance once called upon """
         return self.title
-    )
+    
