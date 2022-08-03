@@ -119,16 +119,75 @@ span {
   top: 0;
 }
 /* NAV STYLES */
+ .navbar {
+  width: 100vw;
+  height:15vh;
+  padding:0 5rem;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #242653;
+  font-family: "Campton", sans-serif;
+  position:fixed;
+  top: 0;
+  z-index: 10000;
+
+ }
+.navbar a {
+  background-color: rgba(255, 255, 255, 0);
+}
+ .navbar ul {
+  display:inline-flex;
+  
+ }
+ .navbar ul li {
+  padding: 1rem 0;
+  margin: 0 1rem;
+  cursor: pointer;
+  font-size: 16px;
+ }
+
+ .nav-btns button:first-of-type {
+  width: 157px;
+  height:56px;
+  border: none;
+  border-radius: 8px;
+  background-color:#ffffff00;
+  /* background-color:pink; */
+  
+}
+.nav-btns button:first-of-type a {
+   font-size:16px;
+  color: #242653;
+  font-weight: 700;
+ }
+
+ .nav-btns button:last-of-type {
+  width: 157px;
+  height:56px;
+  border: none;
+  background-color: #242653;
+  border-radius: 8px;
+}
+.nav-btns button:last-of-type a {
+  font-weight: 600;
+  font-size:14px;
+}
+
 
 /* HERO SECTION */ 
 .hero-section {
   width: 100%;
   height: 85vh;
   display: flex;
+  margin-top:15vh;
   flex-direction: row;
   align-items: center;
   color:white;
+  background-color: var(--blue);
   overflow-x: hidden;
+  padding:0 0 1rem 1rem;
   
 }
 .hero-section span {
@@ -138,22 +197,23 @@ span {
 .hero-left {
   width: 50%;
   display: flex;
+  height: 50%;
 }
 
 .hero-arrow {
   /* background-color: pink; */
   display: flex;
-  width:15%;
+  width:16%;
   flex-direction: column;
-  /* transform-origin: bottom left; */
-  /* height: 100%; */
+  
   position: relative;
+  top: 15%;
   
 
 }
 .hero-arrow img:first-of-type {
   position: absolute;
-  height:60%;
+  height:75%;
   bottom:11%;
   right:14%;
   
@@ -161,12 +221,12 @@ span {
 
 .hero-arrow img:last-of-type{
   position: absolute;
-  bottom:8%;
+  bottom:6%;
   right:20%;
 }
 
 .hero-left p:first-of-type {
-  font-size:5rem;
+  font-size:48px;
   line-height:1.4;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -174,7 +234,7 @@ span {
 }
 
 .hero-left p:last-of-type {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 1.4;
   margin-bottom:2rem;
