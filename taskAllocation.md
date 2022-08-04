@@ -53,7 +53,7 @@ Basit: creating the image gallery section in the landing page.
 ## 3rd August 2022
 ## Frontend Finished landing page  task. 
 
-Topingster: finished hero section created a PR, all checks pass then merged into the repository main branch. 
+Void: finished hero section created a PR, all checks pass then merged into the repository main branch. 
 
 Basit: finished image gallery section created a PR, all checks were pass then merged into the repository main branch. 
 
@@ -71,7 +71,7 @@ dprincecoder: finished nav section + sample text section created a PR, all check
 3rd August 2022
  # Task allocation on creating the below pages 
 
-Topingster:  read more page 
+void:  read more page 
 
 Basit: tutorial page
 
