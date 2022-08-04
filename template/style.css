@@ -175,8 +175,8 @@ span {
 
 /* sample text styles */
 
-/* PORTFOLIO STYLES */
-.portfolio__section {
+/*BEGINNING OF PORTFOLIO STYLES */
+.portfolio_section {
   padding: 50px 0;
   margin: 0 40px;
 }
@@ -186,31 +186,31 @@ span {
   margin: 0 auto;
 }
 
-.portfolio__row {
+.portfolio_row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.portfolio__row-reverse {
+.portfolio_row-reverse {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
 
-.portfolio__img {
+.portfolio_img {
   width: 629.59px;
   height: 383px;
   filter: drop-shadow(0px 75px 50px rgba(74, 72, 72, 0.1));
   overflow: hidden;
 }
 
-.portfolio__row .portfolio__img img {
+.portfolio_row .portfolio_img img {
   margin-left: -100px;
 }
-.portfolio__text {
+.portfolio_text {
   height: 383px;
   display: flex;
   flex-direction: column;
@@ -218,14 +218,14 @@ span {
   align-items: flex-end;
 }
 
-.portfolio__row-reverse .portfolio__text {
+.portfolio_row-reverse .portfolio_text {
   height: 383px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.portfolio__row .portfolio__h2 {
+.portfolio_row .portfolio_h2 {
   font-family: "Campton";
   font-style: normal;
   font-weight: 700;
@@ -237,7 +237,7 @@ span {
   margin-right: 200px;
 }
 
-.portfolio__h2 {
+.portfolio_h2 {
   font-family: "Campton";
   font-style: normal;
   font-weight: 700;
@@ -249,7 +249,7 @@ span {
   margin-bottom: 32px;
 }
 
-.portfolio__text p {
+.portfolio_text p {
   max-width: 373px;
   margin-bottom: 56px;
   font-family: "Campton";
@@ -260,13 +260,13 @@ span {
   color: #1d1f42;
 }
 
-.portfolio__text-link {
+.portfolio_text-link {
   display: flex;
   flex-direction: column;
   justify-content: end;
 }
 
-.portfolio__text a {
+.portfolio_text a {
   font-family: "Campton";
   font-style: normal;
   font-weight: 700;
@@ -374,11 +374,7 @@ text-align: end;
 
 color: #798DC5;
 }
-
-
-
-
-/* PORTFOLIO STYLES */
+/* END OF PORTFOLIO STYLES */
 
 /* TESTIMONIAL STYLES */
 .testimonial__section {
