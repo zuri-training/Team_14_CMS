@@ -181,7 +181,7 @@ span {
   margin: 0 40px;
 }
 
-.portfolio__container {
+.portfolio_top{
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -275,6 +275,108 @@ span {
   text-transform: capitalize;
   color: #2b2e63;
 }
+
+.portfolio_bottom{
+  display: flex;
+  flex-direction: column;
+  margin: 8.5rem 0;
+  gap: 24px;
+}
+.portfolio_bottom h2{
+width: 1114px;
+height: 56px;
+
+font-family: 'Campton';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #090914;
+}
+
+.info{
+  margin-top: 1.5rem;
+}
+
+.info hr{
+width: 217px;
+height: 5px;
+background: #798DC5;
+border-radius: 4px;
+}
+
+.info h3{
+font-family: 'Campton';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 37px;
+
+color: #090914;
+
+}
+.info-1{
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  padding: 0px;
+  gap: 24px;
+}
+
+.info-2{
+display: flex;
+flex-direction: column;
+margin-left: auto;
+gap: 24px;
+
+}
+
+.info-2 hr{
+  margin-left: auto;
+}
+
+.info-4 hr{
+  margin-left: auto;
+}
+
+.info-3{
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  padding: 0px;
+  gap: 24px;
+}
+
+.info-4{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding: 0px;
+  gap: 24px;
+
+}
+
+.info-5{
+  margin-top: 3.5rem;
+}
+.info-5 h3{
+font-family: 'Campton';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 37px;
+text-align: end;
+
+color: #798DC5;
+}
+
+
+
 
 /* PORTFOLIO STYLES */
 
