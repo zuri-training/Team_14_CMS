@@ -320,42 +320,42 @@ span {
 
 /* sample text styles */
 
-/* PORTFOLIO STYLES */
-.portfolio__section {
+/*BEGINNING OF PORTFOLIO STYLES */
+.portfolio_section {
   padding: 50px 0;
   margin: 0 40px;
 }
 
-.portfolio__container {
+.portfolio_top{
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.portfolio__row {
+.portfolio_row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.portfolio__row-reverse {
+.portfolio_row-reverse {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
 
-.portfolio__img {
+.portfolio_img {
   width: 629.59px;
   height: 383px;
   filter: drop-shadow(0px 75px 50px rgba(74, 72, 72, 0.1));
   overflow: hidden;
 }
 
-.portfolio__row .portfolio__img img {
+.portfolio_row .portfolio_img img {
   margin-left: -100px;
 }
-.portfolio__text {
+.portfolio_text {
   height: 383px;
   display: flex;
   flex-direction: column;
@@ -363,14 +363,14 @@ span {
   align-items: flex-end;
 }
 
-.portfolio__row-reverse .portfolio__text {
+.portfolio_row-reverse .portfolio_text {
   height: 383px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.portfolio__row .portfolio__h2 {
+.portfolio_row .portfolio_h2 {
   font-family: "Campton";
   font-style: normal;
   font-weight: 700;
@@ -382,7 +382,7 @@ span {
   margin-right: 200px;
 }
 
-.portfolio__h2 {
+.portfolio_h2 {
   font-family: "Campton";
   font-style: normal;
   font-weight: 700;
@@ -394,7 +394,7 @@ span {
   margin-bottom: 32px;
 }
 
-.portfolio__text p {
+.portfolio_text p {
   max-width: 373px;
   margin-bottom: 56px;
   font-family: "Campton";
@@ -405,13 +405,13 @@ span {
   color: #1d1f42;
 }
 
-.portfolio__text-link {
+.portfolio_text-link {
   display: flex;
   flex-direction: column;
   justify-content: end;
 }
 
-.portfolio__text a {
+.portfolio_text a {
   font-family: "Campton";
   font-style: normal;
   font-weight: 700;
@@ -422,7 +422,105 @@ span {
   background: transparent;
 }
 
-/* PORTFOLIO STYLES */
+.portfolio_bottom{
+  display: flex;
+  flex-direction: column;
+  margin: 8.5rem 0;
+  gap: 24px;
+}
+.portfolio_bottom h2{
+width: 1114px;
+height: 56px;
+
+font-family: 'Campton';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #090914;
+}
+
+.info{
+  margin-top: 1.5rem;
+}
+
+.info hr{
+width: 217px;
+height: 5px;
+background: #798DC5;
+border-radius: 4px;
+}
+
+.info h3{
+font-family: 'Campton';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 37px;
+
+color: #090914;
+
+}
+.info-1{
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  padding: 0px;
+  gap: 24px;
+}
+
+.info-2{
+display: flex;
+flex-direction: column;
+margin-left: auto;
+gap: 24px;
+
+}
+
+.info-2 hr{
+  margin-left: auto;
+}
+
+.info-4 hr{
+  margin-left: auto;
+}
+
+.info-3{
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  padding: 0px;
+  gap: 24px;
+}
+
+.info-4{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding: 0px;
+  gap: 24px;
+
+}
+
+.info-5{
+  margin-top: 3.5rem;
+}
+.info-5 h3{
+font-family: 'Campton';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 37px;
+text-align: end;
+
+color: #798DC5;
+}
+/* END OF PORTFOLIO STYLES */
 
 /* TESTIMONIAL STYLES */
 .testimonial__section {
