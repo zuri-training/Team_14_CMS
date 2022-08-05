@@ -11,7 +11,7 @@
 setting up python for project development:
 dprincecoder (Prince): db schema, task documenting. 
 
-Ola: installed Django and pushed to Github.
+alabi_01: installed Django and pushed to Github.
 
 Dilibe: installed Django and pushed to Github.
 
