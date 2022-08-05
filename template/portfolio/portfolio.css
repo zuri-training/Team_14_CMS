@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero__section {
+    margin-top: 100px;
+    max-width: 1440px;
+    height: 60vh !important;
+}
+
+.carousel-caption {
+    margin-bottom: 200px !important;
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.tutorial__section {
+    padding: 100px 120px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.tutorial__image {
+    width: 490px;
+    height: 392px;
+    margin-top: 58px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.hire__section {
+    padding: 100px 120px;
+}
+
+.hire__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hire__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.hire__button .btn {
+    padding: 17.5px 94px;
+    width: 285px;
+    height: 56px;
+    background: #242653;
+    border-radius: 8px;
+
+    font-family: 'Campton';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #E4E8F3;
+}
