@@ -11,7 +11,7 @@
 setting up python for project development:
 dprincecoder (Prince): db schema, task documenting. 
 
-Ola: installed Django and pushed to Github.
+alabi_01: installed Django and pushed to Github.
 
 Dilibe: installed Django and pushed to Github.
 
@@ -37,7 +37,7 @@ Void: flowchart, helping hand in db schema, helping hand in devs documenting.
 
 Topister & Amyy_: working on creating a models and views for the blog. 
 
-Ola: connecting template route with views.py, including links
+alabi_01: connecting template route with views.py, including links
 
 ## 2nd August 2022
 
