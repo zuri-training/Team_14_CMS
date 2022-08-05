@@ -157,12 +157,40 @@
   padding: 2rem 3rem;
 }
 
-.girl-svg-wrap{
-    width: 450px;
-    height: 500px;
+.girl-svg-wrap {
+  width: 450px;
+  height: 500px;
 }
 
-.girl-svg-img{
-    width: 100%;
+.girl-svg-img {
+  width: 100%;
+}
 
+@media screen and (min-width: 296px) and (max-width: 768px) {
+  .sign-grid {
+    flex-direction: column;
+  }
+  .signin-gridbox {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .sigin-information{
+    background-color: transparent;
+    padding: 1rem;
+  }
+
+  .girl-svg-wrap {
+    display: none;
+    width: 350px;
+    height: 400px;
+  }
+
+  .signin-title h2 {
+    font-size: 20px;
+  }
+
+  .signin-wrapper{
+    margin: 0;
+  }
 }
