@@ -41,3 +41,14 @@
   cursor: pointer;
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .confirm-wrapper {
+    padding: 3rem 1rem;
+  }
+
+  .verified-svg-img {
+    width: 200px;
+  }
+  
+}
