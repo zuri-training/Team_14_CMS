@@ -1,16 +1,22 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'signin/sign.css' %}" />
     <title>WebBuilder</title>
 </head>
 <body>
-    <h1>Log In</h1>
+    <h1>Log Into My Account</h1>
       <form method="POST">
           {% csrf_token %}
-          {{ form.as_p }}
+          {{ form.non_field_errors }}
+          {{ form.username.errors }}
+          <input type="text" name="{{ form.username.label|lower }}" value="" placeholder="Username or Email" id="{{ form.username.id_for_label }}">
+          {{ form.password.errors }}
+          <input type="password" name="{{ form.password.label|lower }}" value="" placeholder="Password" id="{{ form.password.id_for_label }}">
           <input type="submit" value="Log In">
       </form>
 </body>

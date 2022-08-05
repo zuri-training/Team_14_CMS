@@ -1,0 +1,54 @@
+.confirmation {
+  margin: 2rem;
+}
+
+.tmp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.confirm-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #e4e8f3;
+  border-radius: 20px;
+  padding: 3rem 5rem;
+  width: fit-content;
+}
+
+.confirm-btn-wrap {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 8px 6rem;
+  background: #242653;
+  border-radius: 8px;
+}
+
+.confirm-btn {
+  color: #e4e8f3;
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .confirm-wrapper {
+    padding: 3rem 1rem;
+  }
+
+  .verified-svg-img {
+    width: 200px;
+  }
+  
+}
