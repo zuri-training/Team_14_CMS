@@ -1,11 +1,12 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./images/webBuildr.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="{% static 'images/webBuildr.png' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <title>WebBuildr</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -44,19 +45,19 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="./images/nav/logo.svg" alt="" />
+                <img src="{% static 'images/nav/logo.svg' %}" alt="" />
             </div>
 
             <ul>
-                <li>Product<span><img src="./images/nav/downArrow.svg" alt="" /></span></li>
-                <li>Resource<span><img src="./images/nav/downArrow.svg" alt="" /></span></li>
+                <li>Product<span><img src="{% static 'images/nav/downArrow.svg' %}" alt="" /></span></li>
+                <li>Resource<span><img src="{% static 'images/nav/downArrow.svg' %}" alt="" /></span></li>
                 <li>Templates</li>
                 <li>Hire an expert</li>
             </ul>
 
             <div class="nav-btns">
-                <button> <a href="#">LOG IN</a></button>
-                <button> <a href="#">GET STARTED</a></button>
+                <button> <a href="{% url 'account:login' %}">LOG IN</a></button>
+                <button> <a href="{% url 'account:signup' %}">GET STARTED</a></button>
             </div>
         </nav>
     </header>
@@ -66,20 +67,20 @@
             <!-- left hero section -->
             <div class="hero-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                 <div class="hero-arrow">
-                    <img src="./images/hero/arrow.png" alt="arrow">
-                    <img src="./images/hero/arrow-head.png" alt="arrow-head">
+                    <img src="{% static 'images/hero/arrow.png' %}" alt="arrow">
+                    <img src="{% static 'images/hero/arrow-head.png' %}" alt="arrow-head">
                 </div>
                 <div>
                     <p>Further <span>Your</span> Effort <br><span>Using</span> WebBuildr.</p>
                     <p>The easiest and fastest way to build your website. <br> No coding,Zero charges</p>
-                    <button><a href="#"></a>GET STARTED</a></button>
+                    <button><a href="{% url 'account:signup' %}"></a>GET STARTED</a></button>
                     
                 </div>
                 
             </div>
             <!-- Right hero section -->
             <div class="hero-right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
-                <img src="./images/hero/cuate.svg" alt="constructor">
+                <img src="{% static 'images/hero/cuate.svg' %}" alt="constructor">
             </div>
         </section>
 
@@ -99,48 +100,48 @@
             <div class="one-one">
                 <img 
                 class="image-1" 
-                src="./images/gallery/Desktop - 13.png" alt="">
+                src="{% static 'images/gallery/Desktop - 13.png' %}" alt="">
                 <img 
                 class="image-2" 
-                src="./images/gallery/iPad Pro 11_ - 7.png" alt="">
+                src="{% static 'images/gallery/iPad Pro 11_ - 7.png' %}" alt="">
             </div>
             <img 
             class="image-3" 
-            src="./images/gallery/MacBook Pro 16_ - 2.png" alt="">
+            src="{% static 'images/gallery/MacBook Pro 16_ - 2.png' %}" alt="">
         </div>
 
         <div class="two">
             <img
             class="image-4" 
-            src="./images/gallery/Screenshot (9).png" alt="">
+            src="{% static 'images/gallery/Screenshot (9).png' %}" alt="">
             <img
             class="image-5" 
-            src="./images/gallery/iPad Pro 11_ - 4.png" alt="">
+            src="{% static 'images/gallery/iPad Pro 11_ - 4.png' %}" alt="">
         </div>
 
         <div class="three">
             <img 
             class="image-6" 
-            src="./images/gallery/Desktop - 15.png" alt="">
+            src="{% static 'images/gallery/Desktop - 15.png' %}" alt="">
             <img  
             class="image-7"
-            src="./images/gallery/Desktop - 26.png" alt="">
+            src="{% static 'images/gallery/Desktop - 26.png' %}" alt="">
         </div>
 
         <div class="four">
             <img 
             class="image-8" 
-            src="./images/gallery/iPad Pro 11_ - 6.png" alt="">
+            src="{% static 'images/gallery/iPad Pro 11_ - 6.png' %}" alt="">
             <img class="image-9" 
-            src="./images/gallery/Screenshot (9).png" alt="">
+            src="{% static 'images/gallery/Screenshot (9).png' %}" alt="">
         </div>
 
         <div class="five">
             <img class="image-10" 
-            src="./images/gallery/Desktop - 7.png" alt="">
+            src="{% static 'images/gallery/Desktop - 7.png' %}" alt="">
             <img 
             class="image-11" 
-            src="./images/gallery/iPad Pro 11_ - 4 (1).png" alt="">
+            src="{% static 'images/gallery/iPad Pro 11_ - 4 (1).png' %}" alt="">
         </div>
         </section>
         <!-- Portfolio -->
@@ -148,7 +149,7 @@
             <div class="portfolio_top">
                 <div class="portfolio_row">
                     <div class="portfolio_img">
-                        <img src="./images/portfolio/portfolio.png" alt="Portfolio Image">
+                        <img src="{% static 'images/portfolio/portfolio.png' %}" alt="Portfolio Image">
                     </div>
                     <div class="portfolio_text">
                         <h2 class="portfolio_h2">Portfolio</h2>
@@ -160,7 +161,7 @@
                 </div>
                 <div class="portfolio_row-reverse">
                     <div class="portfolio_img">
-                        <img src="./images/portfolio/web-3.png" alt="Web 3 Image">
+                        <img src="{% static 'images/portfolio/web-3.png' %}" alt="Web 3 Image">
                     </div>
                     <div class="portfolio_text">
                         <h2 class="portfolio_h2">Web3</h2>
@@ -228,7 +229,7 @@
                 <div class="testimonial__card-wrapper">
                     <div class="testimonial__card">
                         <div class="testimonial__card-image">
-                            <img src="./images/testimonials/testimonial_1.png" alt="">
+                            <img src="{% static 'images/testimonials/testimonial_1.png' %}" alt="">
                         </div>
                         <div class="testimonial__card-body">
                             <p class="testimonial__card-text-p">The tutorial videos are helpful and time worthy. I really enjoyed.</p>
@@ -238,7 +239,7 @@
                     </div>
                     <div class="testimonial__card">
                         <div class="testimonial__card-image">
-                            <img src="./images/testimonials/testimonial_2.png" alt="">
+                            <img src="{% static 'images/testimonials/testimonial_2.png' %}" alt="">
                         </div>
                         <div class="testimonial__card-body">
                             <p class="testimonial__card-text-p">WebBuildr is truly the fastest and easiest website builder.You have a nice interface i must say.</p>
@@ -248,7 +249,7 @@
                     </div>
                     <div class="testimonial__card">
                         <div class="testimonial__card-image">
-                            <img src="./images/testimonials/testimonial_3.png" alt="">
+                            <img src="{% static 'images/testimonials/testimonial_3.png' %}" alt="">
                         </div>
                         <div class="testimonial__card-body">
                             <p class="testimonial__card-text-p">The tutorial videos are helpful and time worthy. I really enjoyed.</p>
@@ -262,13 +263,13 @@
         <!-- Partners -->
         <section class="partners__section">
             <div class="partners__images-container">
-                <img src="./images/partners/Halfday.svg" alt="">
-                <img src="./images/partners/BBC.svg" alt="">
-                <img src="./images/partners/Qapital.svg" alt="">
-                <img src="./images/partners/Big Fish Games (black).svg" alt="">
-                <img src="./images/partners/PayPal (black).svg" alt="">
-                <img src="./images/partners/Kroma.svg" alt="">
-                <img src="./images/partners/Made.svg" alt="">
+                <img src="{% static 'images/partners/Halfday.svg' %}" alt="">
+                <img src="{% static 'images/partners/BBC.svg' %}" alt="">
+                <img src="{% static 'images/partners/Qapital.svg' %}" alt="">
+                <img src="{% static 'images/partners/Big Fish Games (black).svg' %}" alt="">
+                <img src="{% static 'images/partners/PayPal (black).svg' %}" alt="">
+                <img src="{% static 'images/partners/Kroma.svg' %}" alt="">
+                <img src="{% static 'images/partners/Made.svg' %}" alt="">
             </div>
             <h3 class="partners__h3">Our Partners</h3>
         </section>
@@ -286,42 +287,41 @@
                 <h2>faqs</h2>
                 <div class="faq__item">
                     <p>How much does it cost to create a website?</p>
-                    <img src="./images/arrow-right.svg" alt="Right Arrow">
+                    <img src="{% static 'images/arrow-right.svg' %}" alt="Right Arrow">
                 </div>
                 <hr>
                 <div class="faq__item">
                     <p>Do I have to code while building my website?</p>
-                    <img src="./images/arrow-right.svg" alt="Right Arrow">
+                    <img src="{% static 'images/arrow-right.svg' %}" alt="Right Arrow">
                 </div>
                 <hr>
                 <div class="faq__item">
                     <p>How do I download tutorial videos?</p>
-                    <img src="./images/arrow-right.svg" alt="Right Arrow">
+                    <img src="{% static 'images/arrow-right.svg' %}" alt="Right Arrow">
                 </div>
                 <hr>
                 <div class="faq__item">
                     <p>What’s the cost to have access to an expert? </p>
-                    <img src="./images/arrow-right.svg" alt="Right Arrow">
+                    <img src="{% static 'images/arrow-right.svg' %}" alt="Right Arrow">
                 </div>
                 <hr>
                 <div class="faq__item">
                     <p>Are webinar sessions free?</p>
-                    <img src="./images/arrow-right.svg" alt="Right Arrow">
+                    <img src="{% static 'images/arrow-right.svg' %}" alt="Right Arrow">
                 </div>
                 <hr>
                 <div class="faq__item">
                     <p>Do I have to pay to access template?</p>
-                    <img src="./images/arrow-right.svg" alt="Right Arrow">
+                    <img src="{% static 'images/arrow-right.svg' %}" alt="Right Arrow">
                 </div>
                 <hr>
                 <div class="faq__item">
                     <p>Do I have to pay to have access to expert?</p>
-                    <img src="./images/arrow-right.svg" alt="Right Arrow">
+                    <img src="{% static 'images/arrow-right.svg' %}" alt="Right Arrow">
                 </div>
                 <hr>
             </div>
         </section>
-        
         <!-- Footer -->
         <footer>
             <div class="row">
