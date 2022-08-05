@@ -10,9 +10,20 @@
 
 .hero__section {
     margin-top: 100px;
-    background-color: green;
     max-width: 1440px;
-    height: 656px;
+    height: 60vh !important;
+}
+
+.carousel-caption {
+    margin-bottom: 200px !important;
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .tutorial__section {
