@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     
     # contains the main working of the project
     'cmsproject',
+    'cmsapp.apps.CmsappConfig',
     
     # containing sign up and sign in 
     'account',

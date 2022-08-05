@@ -1,0 +1,848 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* 
+    Couldn't find the campton font used in the design, so I opted to the closes alternative which was poppins 
+    If anyone could manage linking the campton font, please do!
+*/
+:root {
+  /* Colors */
+  /* Create custom varibles for colors for easy use as the colors are being used throughout the site. */
+  --blue: #2b2e63;
+}
+
+@font-face {
+  font-family: "Campton";
+  src: url("./webkit-campton/camptonblack-webfont.woff") format("woff2"),
+    format("woff");
+}
+
+/* BASIC RESETS */
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Campton", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* NAV STYLES */
+.landing-header {
+  background-color: var(--blue);
+  height: 100vh;
+  width: 100%;
+}
+
+.landing-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(9, 9, 20, 0.1);
+  padding: 3rem 5rem;
+}
+
+.landing-navList {
+  display: flex;
+}
+
+.landing-nav-listItem {
+  margin: 0 2rem;
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  position: relative;
+  color: #2b2e63;
+  display: flex;
+}
+
+span {
+  color: #2b2e63;
+  position: relative;
+  margin-left: 0.5rem;
+}
+
+.landing-nav-action-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.landing-nav-login {
+  color: #242653;
+  width: fit-content;
+  height: 24px;
+  margin-right: 2rem;
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.landing-nav-btn-primary-large {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 15px;
+  width: 157px;
+  height: 56px;
+  background: #242653;
+  border-radius: 8px;
+  outline: 0;
+  border: none;
+}
+.getting-started-link {
+  color: #fff;
+}
+
+.landing-nav-login-link {
+  color: #242653;
+}
+
+.dropdown-arrow {
+  position: absolute;
+  left: 30%;
+  right: 17%;
+  top: 0;
+}
+/* NAV STYLES */
+ .navbar {
+  width: 100vw;
+  height:15vh;
+  padding:0 5rem;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #242653;
+  font-family: "Campton", sans-serif;
+  position:fixed;
+  top: 0;
+  z-index: 10000;
+
+ }
+.navbar a {
+  background-color: rgba(255, 255, 255, 0);
+}
+ .navbar ul {
+  display:inline-flex;
+  
+ }
+ .navbar ul li {
+  padding: 1rem 0;
+  margin: 0 1rem;
+  cursor: pointer;
+  font-size: 16px;
+ }
+
+ .nav-btns button:first-of-type {
+  width: 157px;
+  height:56px;
+  border: none;
+  border-radius: 8px;
+  background-color:#ffffff00;
+  /* background-color:pink; */
+  
+}
+.nav-btns button:first-of-type a {
+   font-size:16px;
+  color: #242653;
+  font-weight: 700;
+ }
+
+ .nav-btns button:last-of-type {
+  width: 157px;
+  height:56px;
+  border: none;
+  background-color: #242653;
+  border-radius: 8px;
+}
+.nav-btns button:last-of-type a {
+  font-weight: 600;
+  font-size:14px;
+}
+
+
+/* HERO SECTION */ 
+.hero-section {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  margin-top:15vh;
+  flex-direction: row;
+  align-items: center;
+  color:white;
+  background-color: var(--blue);
+  overflow-x: hidden;
+  padding:0 0 1rem 1rem;
+  
+}
+.hero-section span {
+  color: #798DC5;
+  margin:0;
+}
+.hero-left {
+  width: 50%;
+  display: flex;
+  height: 50%;
+}
+
+.hero-arrow {
+  /* background-color: pink; */
+  display: flex;
+  width:16%;
+  flex-direction: column;
+  
+  position: relative;
+  top: 15%;
+  
+
+}
+.hero-arrow img:first-of-type {
+  position: absolute;
+  height:75%;
+  bottom:11%;
+  right:14%;
+  
+}
+
+.hero-arrow img:last-of-type{
+  position: absolute;
+  bottom:6%;
+  right:20%;
+}
+
+.hero-left p:first-of-type {
+  font-size:48px;
+  line-height:1.4;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  /* font-family: "Campton", sans-serif; */
+}
+
+.hero-left p:last-of-type {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom:2rem;
+}
+
+.hero-left button {
+  cursor: pointer;
+  padding:1rem;
+  border: none;
+  color: white;
+  background-color:#798DC5;
+  border-radius: 8px;
+  
+  font-weight:200;
+}
+.hero-right { 
+  width: 50%;
+  /* height:100%; */
+  /* display:grid;
+  align-items:center; */
+  /* padding: 5rem 0; */
+}
+.hero-right img {
+  width: 100%;
+  object-fit: contain;
+}
+
+
+
+
+/* sample text styles */
+.sample-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+}
+.sample-wrapper {
+  padding: 4rem;
+}
+
+.sample-text-h1 {
+  /* create a website in less than an hour */
+
+  width: 924px;
+  height: 56px;
+
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #090914;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.sample-text-p {
+  width: 972px;
+  height: 72px;
+
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  text-align: center;
+
+  color: #1d1f42;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* sample text styles */
+
+/*BEGINNING OF PORTFOLIO STYLES */
+.portfolio_section {
+  padding: 50px 0;
+  margin: 0 40px;
+}
+
+.portfolio_top{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.portfolio_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio_row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio_img {
+  width: 629.59px;
+  height: 383px;
+  filter: drop-shadow(0px 75px 50px rgba(74, 72, 72, 0.1));
+  overflow: hidden;
+}
+
+.portfolio_row .portfolio_img img {
+  margin-left: -100px;
+}
+.portfolio_text {
+  height: 383px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.portfolio_row-reverse .portfolio_text {
+  height: 383px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.portfolio_row .portfolio_h2 {
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: capitalize;
+  color: #090914;
+  margin-bottom: 32px;
+  margin-right: 200px;
+}
+
+.portfolio_h2 {
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #090914;
+  margin-bottom: 32px;
+}
+
+.portfolio_text p {
+  max-width: 373px;
+  margin-bottom: 56px;
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1d1f42;
+}
+
+.portfolio_text-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.portfolio_text a {
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #2b2e63;
+  background: transparent;
+}
+
+.portfolio_bottom{
+  display: flex;
+  flex-direction: column;
+  margin: 8.5rem 0;
+  gap: 24px;
+}
+.portfolio_bottom h2{
+width: 1114px;
+height: 56px;
+
+font-family: 'Campton';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #090914;
+}
+
+.info{
+  margin-top: 1.5rem;
+}
+
+.info hr{
+width: 217px;
+height: 5px;
+background: #798DC5;
+border-radius: 4px;
+}
+
+.info h3{
+font-family: 'Campton';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 37px;
+
+color: #090914;
+
+}
+.info-1{
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  padding: 0px;
+  gap: 24px;
+}
+
+.info-2{
+display: flex;
+flex-direction: column;
+margin-left: auto;
+gap: 24px;
+
+}
+
+.info-2 hr{
+  margin-left: auto;
+}
+
+.info-4 hr{
+  margin-left: auto;
+}
+
+.info-3{
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  padding: 0px;
+  gap: 24px;
+}
+
+.info-4{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding: 0px;
+  gap: 24px;
+
+}
+
+.info-5{
+  margin-top: 3.5rem;
+}
+.info-5 h3{
+font-family: 'Campton';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 37px;
+text-align: end;
+
+color: #798DC5;
+}
+/* END OF PORTFOLIO STYLES */
+
+/* TESTIMONIAL STYLES */
+.testimonial__section {
+  background-color: var(--blue);
+  height: 408px;
+}
+
+.testimonial__container {
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.testimonial__h2 {
+  margin-bottom: 62px;
+  margin-top: 21px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #d2d9ec;
+}
+
+.testimonial__card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 34px;
+}
+
+.testimonial__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 388px;
+  height: 148px;
+  background: #f8f8f8;
+  box-shadow: 0px 4px 4px rgba(39, 39, 39, 0.1),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+
+.testimonial__card-image {
+  margin-top: -50px;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.testimonial__card-image img {
+  width: 100%;
+}
+
+.testimonial__card-body {
+  margin-top: 12px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.testimonial__card-text-p {
+  margin-bottom: -10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  color: var(--blue);
+}
+
+.testimonial__hr {
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+.testimonial__h4 {
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--blue);
+}
+/* TESTIMONIAL STYLES */
+
+/* PARTNERS SECTION STYLES */
+.partners__section {
+  height: 408px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.partners__images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners__images-container img {
+  margin-right: 48px;
+  margin-bottom: 38px;
+  height: 32px;
+}
+
+.partners__h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #090914;
+}
+/* PARTNERS SECTION STYLES */
+
+/* CALL TO ACTION STYLES */
+.call-to-action__section {
+  background-color: var(--blue);
+  height: 408px;
+}
+
+.call-to-action__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action__h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #d2d9ec;
+
+  margin-top: 62px;
+  margin-bottom: 32px;
+}
+
+.call-to-action__p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f8f8f8;
+
+  margin-bottom: 42px;
+}
+
+.call-to-action-btn {
+  text-align: center;
+  padding: 17px 20px;
+  width: 230px;
+  height: 56px;
+  background: #798dc5;
+  border-radius: 8px;
+
+  font-weight: 400;
+  font-size: 14px;
+  color: #e4e8f3;
+}
+/* CALL TO ACTION STYLES */
+
+/* Gallery styles */
+
+.gallery {
+  display: flex;
+  background-color: #2b2e63;
+  width: 100%;
+  overflow: hidden;
+}
+
+.one {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.one-one {
+  display: flex;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.three {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.image-1 {
+  padding-top: 145px;
+  padding-bottom: 78px;
+}
+
+.image-2 {
+  padding-top: 162px;
+  padding-bottom: 43px;
+}
+
+.image-3 {
+  padding-left: 8px;
+  padding-bottom: 221px;
+}
+
+.image-4 {
+  padding-top: 78px;
+  padding-bottom: 44px;
+}
+
+.image-5 {
+  padding-bottom: 242px;
+}
+
+.image-6 {
+  padding-top: 167px;
+  padding-left: 36px;
+  padding-bottom: 40px;
+}
+
+.image-7 {
+  padding-top: 100px;
+  padding-left: 90px;
+  padding-bottom: 50px;
+}
+
+.image-8 {
+  padding-top: 115px;
+}
+
+.image-9 {
+  padding-left: 78px;
+}
+
+.image-10 {
+  padding-top: 65px;
+}
+
+.image-11 {
+  padding-left: 80px;
+  padding-top: 39px;
+}
+/* Footer section */
+footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: var(--blue);
+  color: #fff;
+  line-height: 30px;
+  padding: 100px 0 30px;
+}
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col h3 {
+  width: auto;
+  height: 5px;
+  margin-bottom: 40px;
+  position: relative;
+}
+a{
+  display: inline-block;
+  background: var(--blue);
+  color: #fff;
+}
+/* End of gallery styling */
+
+/* faq */
+.faq__section {
+  padding: 132px 320px;
+}
+
+.faq__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq__container h2 {
+  margin-bottom: 48px;
+  font-family: 'Campton';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #090914;
+}
+
+.faq__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.faq__item p {
+  font-family: 'Campton';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1D1F42;
+}
+
+.faq__container hr {
+  margin-bottom: 40px;
+}
+
+
+
+/* faq */
