@@ -37,7 +37,7 @@ Void: flowchart, helping hand in db schema, helping hand in devs documenting.
 
 Topister & Amyy_: working on creating a models and views for the blog. 
 
-Ola: connecting template route with views.py, including links
+alabi_01: connecting template route with views.py, including links
 
 ## 2nd August 2022
 
