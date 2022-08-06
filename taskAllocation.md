@@ -99,7 +99,7 @@ Sign in page: Micheal Abiola Idiaka and Pamela Ogujuiba (Done)
 
 Registration page/registration for new website creation: Akintola Moyade and Ajenganyi Solange
 
-Template page: Oloko Aishat and Inyang Ukeme
+Template page:Inyang Ukeme and Oloko Aishat
 
 Admin page: Obinna Emmanuel, Victoria Dan and Vivian Okere
 
