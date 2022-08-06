@@ -27,9 +27,9 @@ Topister Nandera: created a superuser in django
 
 Abidat: created a superuser in django
 
-Amyy_: created a superuser in django, devs documenting. 
+Amyy_: created a superuser in django, devs documention. 
 
-Void: flowchart, helping hand in db schema, helping hand in devs documenting. 
+Void: flowchart, helping hand in db schema, helping hand in devs documention. 
 
 ## 1st August 2022
 
