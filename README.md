@@ -66,4 +66,4 @@ Finally, run  server
 	- Ability to change template
 	- Unique address
 	- Ability to add social media links
-	- 
+	
