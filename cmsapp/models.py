@@ -12,7 +12,6 @@ class Post (models.Model):
     modified = models.DateTimeField(auto_now=True)
     slug = models.SlugField()
     
-    def __str__(self):
-        """ Displays the title of an instance once called upon """
+    def _str_(self):
         return self.title
     
