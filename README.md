@@ -1,7 +1,7 @@
 # Content Management System (CMS_Team_14)
 
 <p align="center">
-  <img width="1000" height="100" src="https://github.com/zuri-training/Team_14_CMS/blob/main/template/signinPage/signin-logo.svg">
+  <img width="1000" height="300" src="https://github.com/zuri-training/Team_14_CMS/blob/main/template/signinPage/signin-logo.svg">
 </p>
 
 ## Steps
