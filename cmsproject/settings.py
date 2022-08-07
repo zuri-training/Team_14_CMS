@@ -43,12 +43,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
-    # contains the main working of the project
+    # User Created Apps
     'cmsproject',
     'cmsapp.apps.CmsappConfig',
-    
-    # containing sign up and sign in 
     'account',
+    
+    # Third Party Plugins
+    'social_django',
+    # 'social_django_mongoengine',
+
     
 ]
 
@@ -155,3 +158,5 @@ MEDIA_URL = "/image/"
 # COnnecting path to the media is stored
 
 MEDIA_ROOT = BASE_DIR / 'image/'
+
+# SOCIAL_AUTH_STORAGE = 'social_django_mongoengine.models.DjangoStorage'
