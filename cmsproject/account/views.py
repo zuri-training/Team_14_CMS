@@ -14,3 +14,11 @@ class SignUpView(generic.CreateView):
     
     # directory of the used template
     template_name = 'account/signup.html'
+
+def emailconfirmation(request):
+    """ Function for Confirming the user Email is working """
+    if request.user.is_authenticated:
+        print('authenticated')
+    else:
+        print('Unauthenticated')
+    return render(request, 'account/registerConf.html')

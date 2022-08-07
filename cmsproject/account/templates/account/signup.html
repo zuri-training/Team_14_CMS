@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="{% static 'registerPage/register.css' %}" />
-    <title>Register With us</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'images/webBuildr.png' %}">
+    <title>Register With Us</title>
   </head>
   <body>
     <div class="action-btns">
-      <button class="action-btn-go-back">
+      <button class="action-btn-go-back" onclick="Back()">
         <span class="go-back-svg">
           <img src="{% static 'registerPage/assets/backIcon.svg' %}" alt="" />
         </span>
         back
       </button>
-      <button class="action-btn-go-login">login</button>
+      <button class="action-btn-go-login some" onclick="Login()">login</button>
     </div>
     <main class="register-main">
       <div class="main-container">
@@ -36,19 +37,19 @@
           <p class="or">or</p>
           <form action="" method="POST" class="form-body">
                 {% csrf_token %}
-                {{ form.first_name }}
-                {{ form.last_name }}
-                {{ form.email }}
+                {{ form.non_field_errors }}
 
 
 
-            <!-- <div class="form-division"> 
+            <div class="form-division"> 
+              {{ form.first_name.errors }}
+              {{ form.last_name.errors }}
               <div class="form-group dv1">
                 <input
                   type="text"
                   class="form-control"
                   type="text"
-                  name="firstname"
+                  name="first_name"
                   id="firstname"
                   placeholder="first name"
                 />
@@ -58,7 +59,7 @@
                   type="text"
                   class="form-control"
                   type="text"
-                  name="lastname"
+                  name="last_name"
                   id="lastname"
                   placeholder="last name"
                 />
@@ -74,18 +75,28 @@
                 placeholder="Email"
               />
             </div>
-            <div class="form-group">
-              <input
-                type="text"
-                class="form-control"
-                type="password"
-                name="password"
-                id="password"
-                placeholder="Password "
-              />
+            <div class="form-division"> 
+              <div class="form-group dv1">
+                <input
+                  class="form-control"
+                  type="password"
+                  name="password1"
+                  id="password"
+                  placeholder="Password "
+                />
+              </div>
+              <div class="form-group"> 
+                <input
+                  class="form-control"
+                  type="password"
+                  name="password2"
+                  id="password"
+                  placeholder="Password Again"
+                />
+              </div>
             </div>
             <div class="form-group-btn">
-              <button type="submit" class="register-btn">Create Account</button>
+              <input type="submit" class="register-btn" value="Create Account">
             </div>
           </form>
           <div class="form-checkbox-wrap">
@@ -99,4 +110,12 @@
       </div>
     </main>
   </body>
+  <script type="text/javascript">
+    function Login() {
+      window.location.replace("{% url 'account:login' %}");
+    }
+    function Back() {
+      history.go(-1);
+    }
+  </script>
 </html>

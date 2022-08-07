@@ -56,7 +56,11 @@
             </ul>
 
             <div class="nav-btns">
+                {% if user.is_authenticated %}
+                <button> <a href="{% url 'account:logout' %}">LOG OUT</a></button>
+                {% else %}
                 <button> <a href="{% url 'account:login' %}">LOG IN</a></button>
+                {% endif %}
                 <button> <a href="{% url 'account:signup' %}">GET STARTED</a></button>
             </div>
         </nav>
@@ -73,7 +77,9 @@
                 <div>
                     <p>Further <span>Your</span> Effort <br><span>Using</span> WebBuildr.</p>
                     <p>The easiest and fastest way to build your website. <br> No coding,Zero charges</p>
-                    <button><a href="{% url 'account:signup' %}"></a>GET STARTED</a></button>
+                    <button onclick="() => {
+                        window.location.replace('{% url 'account:signup' %}')
+                    }">GET STARTED</a></button>
                     
                 </div>
                 

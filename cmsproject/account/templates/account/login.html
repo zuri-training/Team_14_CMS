@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Welcome back" />
     <meta name="keywords" content="signin, signup, login, register" />
+    <link rel="icon" type="image/x-icon" href="{% static 'images/webBuildr.png' %}">
     <link
       rel="stylesheet"
       href="{% static 'webkit-campton/camptonextrabold-webfont.woff' %}"
@@ -19,7 +20,7 @@
       <div class="sign-grid">
         <div class="sigin-information signin-gridbox">
           <div class="grid-logo">
-            <img src="{% static 'images/nav/logo.svg' %}" alt="logo" />
+            <img src="{% static 'images/nav/logo.svg' %}" alt="logo" onclick="homepage()" />
           </div>
           <div class="signin-wrapper">
             <div class="signin-title">
@@ -46,7 +47,7 @@
                     <input type="password" class="form-control" name="{{ form.password.label|lower }}" value="" placeholder="Password" id="{{ form.password.id_for_label }}">
                   </div>
                   <div class="form-group-btn">
-                  <button type="submit" value="Sign In" class="signin-btn">
+                  <button type="submit" value="Sign In" class="signin-btn" onmouseover="change(this)" onmouseout="chang(this)">
                     Log In
                   </button>
                 </div>
@@ -70,4 +71,15 @@
       </div>
     </main>
   </body>
+  <script type="text/javascript">
+    function change (el) {
+      el.setAttribute('style', "font-size:20px");
+    }
+    function chang (el) {
+      el.setAttribute('style', "background-color: #242653; color: white");
+    }
+    function homepage() {
+      window.location.replace('{% url "landingpage" %}')
+    }
+  </script>
 </html>
