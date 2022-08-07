@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path 
 import os
-import django_heroku
 import dj_database_url
 
 
@@ -50,7 +49,7 @@ INSTALLED_APPS = [
     'account',
     
     # Third Party Plugins
-    'social_django',
+    # 'social_django',
     # 'social_django_mongoengine',
 
     
@@ -137,7 +136,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRs= (os.path.join(BASE_DIR/'STATIC'),)
-django_heroku.settings(locals())
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 STATICFILES_DIRS = [
@@ -162,3 +160,5 @@ MEDIA_URL = "/image/"
 MEDIA_ROOT = BASE_DIR / 'image/'
 
 # SOCIAL_AUTH_STORAGE = 'social_django_mongoengine.models.DjangoStorage'
+import django_heroku
+django_heroku.settings(locals())
