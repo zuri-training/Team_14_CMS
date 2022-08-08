@@ -95,7 +95,7 @@ The CMS pages were divided into sections and designers were put into groups and 
 
 Landing page: Obinna Emmanuel and Promise Adeola
 
-Sign in page: Micheal Abiola Idiaka and Pamela Ogujiuba (Done)
+Sign in page: Micheal Abiola Idiaka and Pamela Ogujiuba
 
 Registration page/registration for new website creation: Akintola Moyade and Ajenganyi Solange
 
@@ -104,5 +104,7 @@ Template page:Inyang Ukeme and Oloko Aishat
 Admin page: Obinna Emmanuel, Victoria Dan and Vivian Okere
 
 Error page: Michael Abiola Idiaka, Obinna Emmanuel
+
+E-commerce page: Michael Abiola Idiaka
 
 etc.

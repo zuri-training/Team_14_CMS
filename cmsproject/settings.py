@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path 
 import os
-import django_heroku
 import dj_database_url
 
 
@@ -42,13 +41,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'whitenoise.runserver_nostatic',
     
-    # contains the main working of the project
+    # User Created Apps
     'cmsproject',
     'cmsapp.apps.CmsappConfig',
-    
-    # containing sign up and sign in 
     'account',
+    
+    # Third Party Plugins
+    # 'social_django',
+    # 'social_django_mongoengine',
+
     
 ]
 
@@ -133,7 +136,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRs= (os.path.join(BASE_DIR/'STATIC'),)
-django_heroku.settings(locals())
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
@@ -155,3 +158,7 @@ MEDIA_URL = "/image/"
 # COnnecting path to the media is stored
 
 MEDIA_ROOT = BASE_DIR / 'image/'
+
+# SOCIAL_AUTH_STORAGE = 'social_django_mongoengine.models.DjangoStorage'
+import django_heroku
+django_heroku.settings(locals())
