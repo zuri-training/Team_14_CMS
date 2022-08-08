@@ -68,4 +68,4 @@ Finally, run  server
 	- Ability to create more pages
 	- Ability to change template
 	- Unique address
-	- Ability to add social media link
+	- Ability to add social media links
