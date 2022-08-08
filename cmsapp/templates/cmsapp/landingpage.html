@@ -57,11 +57,11 @@
 
             <div class="nav-btns">
                 {% if user.is_authenticated %}
-                <button> <a href="{% url 'account:logout' %}">LOG OUT</a></button>
+                <button> <a href="{% url 'accounts:logout' %}">LOG OUT</a></button>
                 {% else %}
-                <button> <a href="{% url 'account:login' %}">LOG IN</a></button>
+                <button> <a href="{% url 'accounts:login' %}">LOG IN</a></button>
                 {% endif %}
-                <button> <a href="{% url 'account:signup' %}">GET STARTED</a></button>
+                <button> <a href="{% url 'accounts:signup' %}">GET STARTED</a></button>
             </div>
         </nav>
     </header>
@@ -282,7 +282,7 @@
             <div class="call-to-action__container">
                 <h2 class="call-to-action__h2">yup!!! you are in the right place</h2>
                 <p class="call-to-action__p">WebBuildr enables you to create,edit,collaborate on, publish and store digital content without the help of developers. You do not need a technical skill or knowledge, it’s all made easy using WebBuildr the fastest way to kick start a managable future.</p>
-                <a href="{% url 'account:signup' %}" class="call-to-action-btn">Create a website for free</a>
+                <a href="{% url 'accounts:signup' %}" class="call-to-action-btn">Create a website for free</a>
             </div>
         </section>
         <!-- faq -->
@@ -376,6 +376,6 @@
 <script>
     AOS.init();
     function getStarted() {
-        window.location.replace("{% url 'account:signup' %}")
+        window.location.replace("{% url 'accounts:signup' %}")
     }
   </script>

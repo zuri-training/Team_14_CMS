@@ -13,7 +13,7 @@ class SignUpView(generic.CreateView):
     success_url = reverse_lazy('account:login')
     
     # directory of the used template
-    template_name = 'account/signup.html'
+    template_name = 'accounts/signup.html'
 
 def emailconfirmation(request):
     """ Function for Confirming the user Email is working """

@@ -1,4 +1,5 @@
 {% load static %}
+{% load socialaccount %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,7 +28,7 @@
         <p class="create-account">Create Your Account</p>
         <div class="form-container">
           <div class="form-action-btns">
-            <button class="form-action-btn">
+            <button class="form-action-btn" onclick="google()">
               <img src="{% static 'registerPage/assets/google-logo.svg' %}" class="form-action-google-logo" alt="" />
             </button>
             <button class="form-action-btn">
@@ -112,10 +113,14 @@
   </body>
   <script type="text/javascript">
     function Login() {
-      window.location.replace("{% url 'account:login' %}");
+      window.location.replace("{% url 'accounts:login' %}");
     }
     function Back() {
       history.go(-1);
+    }
+    function google() {
+      window.open("{% provider_login_url 'google' %}",
+                    'popUpWindow','height=500,width=400,left=400,top=50,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
     }
   </script>
 </html>
