@@ -124,10 +124,9 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
-<<<<<<< HEAD
 # Pyre type checker
 .pyre/
-=======
+
 # Python Cache Files
 __pycache__
 # Byte-compiled / optimized / DLL files
