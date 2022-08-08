@@ -173,6 +173,7 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend'
 ]
 
+# Setting for thwe social authentcation
 SITE_ID = 1
 
 SOCIALACCOUNT_QUERY_EMAIL = True
@@ -193,4 +194,12 @@ SOCIALACCOUNT_PROVIDERS = {
             'access_type' : 'online',
         }
     }
+    # "apple" : {
+    #     "APP" : {
+    #     'client_id':
+    #     'secret':
+    #     'key':
+    #     'certificate_key':
+    #     }
+    # }
 }
