@@ -66,17 +66,32 @@
                 />
               </div>
             </div>
-            <div class="form-group">
-              <input
-                type="text"
-                class="form-control"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Email"
-              />
+            <div class="form-division"> 
+                {{ form.email.errors }}
+                {{ form.username.errors }}
+              <div class="form-group dv1">
+                <input
+                  type="text"
+                  class="form-control"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  type="text"
+                  name="username"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
             </div>
             <div class="form-division"> 
+              {{ form.password1.errors }}
+              {{ form.password2.errors }}
               <div class="form-group dv1">
                 <input
                   class="form-control"
@@ -120,7 +135,8 @@
     }
     function google() {
       window.open("{% provider_login_url 'google' %}",
-                    'popUpWindow','height=500,width=400,left=400,top=50,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
+                    'popUpWindow',
+                    'height=500,width=400,left=400,top=50,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
     }
   </script>
 </html>
