@@ -1,2 +1,2 @@
-Created a superuser as required in the the initial stage.
-Including Pillow the requirements.text. 
+1. Created a superuser as required in the the initial stage.
+2. Included Pillow the requirements.text. 
