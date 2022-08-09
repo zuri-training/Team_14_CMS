@@ -185,11 +185,16 @@
   margin-right: 2rem;
 }
 
+.mobile {
+  display: none;
+}
+
 @media screen and (min-width: 296px) and (max-width: 768px) {
   .action-btns {
     padding: 0 2rem;
     margin: 1rem 0;
     width: 100%;
+    display: none;
   }
   .create-account {
     font-size: 20px;
@@ -201,8 +206,11 @@
 
   .register-main {
     width: 100%;
-    margin: 0;
+    margin: 5em 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .main-container {
@@ -224,5 +232,56 @@
   .action-btn-go-back,
   .action-btn-go-login {
     font-size: 13px;
+  }
+  .apple-btn {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+  }
+
+  .apple-btn p {
+    font-family: "Campton";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 10px;
+    color: #f5f6f8;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  hr {
+    margin: 2rem 0;
+    border: 1px solid #242653;
+  }
+
+  .register-form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .register-form-footer p {
+    font-family: "Campton";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  .register-form-footer a {
+    font-family: "Campton";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #242653;
   }
 }
