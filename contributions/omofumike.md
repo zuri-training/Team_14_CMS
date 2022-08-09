@@ -1,4 +1,4 @@
-## created a superuser in django
+## Created a Dajango superuser as required in the the initial stage.
 
 ## create a footer section
 https://github.com/zuri-training/Team_14_CMS/commit/b8222bbdb9cb388fbe2b448c8fc50c5150a70e10
