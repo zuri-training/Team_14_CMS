@@ -24,6 +24,9 @@
 
 ## create a navbar task
     https://github.com/zuri-training/Team_14_CMS/issues/13
+    
+## merged a PR from holade
+    https://github.com/zuri-training/Team_14_CMS/commit/2bf65ec6de9fd41fb2779be230d071f3193d74b2
 
 ## create a sigin in page;
     
