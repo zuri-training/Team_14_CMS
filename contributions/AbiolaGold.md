@@ -21,3 +21,4 @@ Sign in page Desktop wireframe design https://www.figma.com/file/kokVUh8TvoS7fkX
 Resolved issues
 https://github.com/zuri-training/Team_14_CMS/issues/30
 https://github.com/zuri-training/Team_14_CMS/issues/51
+https://github.com/zuri-training/Team_14_CMS/issues/53
