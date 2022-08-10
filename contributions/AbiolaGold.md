@@ -7,4 +7,3 @@ E-commerce Desktop wireframe design https://www.figma.com/file/KUXA9TjkYyUWDkSNT
 Error page Desktop design https://www.figma.com/file/KUXA9TjkYyUWDkSNTewHbU/CMS?node-id=1912%3A31904
 Error page Desktop low-Fi design https://www.figma.com/file/KUXA9TjkYyUWDkSNTewHbU/CMS?node-id=1950%3A37022
 Error page Desktop wireframe https://www.figma.com/file/KUXA9TjkYyUWDkSNTewHbU/CMS?node-id=1950%3A47483
-
