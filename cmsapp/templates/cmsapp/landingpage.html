@@ -61,7 +61,7 @@
                 {% else %}
                 <button> <a href="{% url 'accounts:login' %}">LOG IN</a></button>
                 {% endif %}
-                <button> <a href="{% url 'accounts:signup' %}">GET STARTED</a></button>
+                <button> <a href="{% url 'cmsapp:templates_page' %}">GET STARTED</a></button>
             </div>
         </nav>
     </header>
@@ -376,6 +376,6 @@
 <script>
     AOS.init();
     function getStarted() {
-        window.location.replace("{% url 'accounts:signup' %}")
+        window.location.replace("{% url 'cmsapp:templates_page' %}")
     }
   </script>

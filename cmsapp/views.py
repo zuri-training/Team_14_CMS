@@ -25,3 +25,7 @@ class CreateTemplate(CreateView):
     model = Post
     template_name = "create_template.html"
     success_url = ""
+
+def templates_page(request):
+    """ Function to render the templates page """
+    return render(request, 'cmsapp/templates.html')
