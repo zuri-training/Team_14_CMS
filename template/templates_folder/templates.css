@@ -257,6 +257,21 @@ a{
     color: #000000;
 }
 
+.mobile__footer {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .cat__container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+
+    .template__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 420px) {
     .categories,
