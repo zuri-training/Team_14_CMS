@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* 
+    Couldn't find the campton font used in the design, so I opted to the closes alternative which was poppins 
+    If anyone could manage linking the campton font, please do!
+*/
+:root {
+  /* Colors */
+  /* Create custom varibles for colors for easy use as the colors are being used throughout the site. */
+  --blue: #2b2e63;
+}
+
+@font-face {
+  font-family: "Campton";
+  src: url("../webkit-campton/camptonblack-webfont.woff") format("woff2"),
+    format("woff");
+}
+
+/* BASIC RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Campton", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.navbar {
+  width: 100vw;
+  height: 15vh;
+  padding: 0 5rem;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #242653;
+  font-family: "Campton", sans-serif;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+
+}
+
+.navbar a {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+.navbar ul {
+  display: inline-flex;
+
+}
+
+.navbar ul li {
+  padding: 1rem 0;
+  list-style: none;
+  margin: 0 1rem;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar ul li span {
+  margin-left: 0.5rem;
+}
+
+.nav-btns button:first-of-type {
+  width: 157px;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff00;
+  /* background-color:pink; */
+
+}
+
+.nav-btns button:first-of-type a {
+  font-size: 16px;
+  color: #242653;
+  font-weight: 700;
+}
+
+.nav-btns button:last-of-type {
+  width: 157px;
+  height: 56px;
+  border: none;
+  background-color: #242653;
+  border-radius: 8px;
+}
+
+.nav-btns button:last-of-type a {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background-color: var(--blue);
+  width: 100%;
+  height: 85vh;
+  margin-top: 15vh;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hero-section span {
+  color: #798DC5;
+}
+
+.hero-left button {
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  color: white;
+  background-color: #798DC5;
+  border-radius: 8px;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+
+.hero-right {
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(186, 29, 55); */
+  padding: 3rem 0 0 2.5rem;
+  overflow: hidden;
+
+}
+
+.hero-left p {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 69px;
+
+}
+
+.hero-left ul {
+  margin-left: 2rem;
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.img-container {
+  /* width: 100%; */
+  height: 100%;
+  /* background-color:black; */
+  text-align: right;
+}
+
+.img-container img {
+  width: 130%;
+  height: 115%;
+}
+
+.hero-left {
+  width: 100%;
+  height: 100%;
+  /* background-color:yellow; */
+  padding: 3rem 4rem 0;
+
+}
+
+
+
+/* --------------------------------- */
+.features {
+  width: 100%;
+  /* height: vh; */
+  /* background-color:pink; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5rem 4rem 0 4rem;
+}
+
+
+.sub-features {
+  width: 45%;
+  /* max-width: 600px; */
+  height: 350px;
+  /* background-color:yellow; */
+  /* margin-top:3px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sub-features div {
+  /* background-color: purple; */
+  /* width:70%; */
+  max-height: 400px;
+  position: relative;
+  padding-bottom: 2rem;
+
+
+}
+
+.sub-features div p {
+  width: 70%;
+  font-size: 16px;
+  /* background-color:grey; */
+}
+
+.second {
+  width: 35%;
+}
+
+.second p {
+  width: 100% !important;
+}
+
+.sub-features div h3 {
+  font-size: 2rem;
+  /* background-color:cyan; */
+  margin-bottom: 1.1rem;
+  text-align: left;
+}
+
+.first div:last-of-type {
+  width: 75%;
+
+}
+
+.second div:last-of-type {
+  /* padding-right:20px; */
+  width:85%;
+}
+
+.first div:last-of-type p {
+  width: 90% !important;
+}
+
+.left {
+  width: 50%;
+  height: 0.3rem;
+  border-radius: 25px;
+  background-color: #798DC5;
+  position: absolute;
+  bottom: 0;
+}
+
+.right {
+  width: 50%;
+  height: 0.3rem;
+  border-radius: 25px;
+  background-color: #798DC5;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.dif {
+  width: 40% !important;
+}
+
+.see-more {
+  text-align: right;
+  /* background-color: #798DC5; */
+  padding:2.5rem 7rem 1rem 0;
+}
+.see-more a {
+  font-weight: 700;
+  color: #798DC5;
+  font-size:1.4rem;
+
+}
+
+/* ------------------------- */
+.hire-expert {
+  padding:3rem 4rem 2rem 4rem;
+  display: flex;
+  justify-content:space-between;
+  width:100%;
+  /* background-color:purple; */
+
+}
+
+.hire-expert div {
+  /* background-color:green; */
+}
+
+.hire-expert h2 {
+  font-size:2.5rem;
+  padding-bottom:10px;
+}
+.hire-left {
+  /* padding-left: 2rem; */
+}
+.hire-expert ul {
+  list-style-image: url('../images/features/tick.png');
+  /* background-color: yellow; */
+  padding-left: 2rem;
+}
+
+.hire-expert ul li {
+  font-size:20px;
+  margin-bottom:10px;
+  line-height:30px;
+  padding-left:0.7rem;
+}
+.hire-right {
+  display:grid;
+  place-items: center;
+}
+.hire-right img {
+  max-height: 300px;
+}
+.hire-btn {
+  /* background-color:pink; */
+  width: 100%;
+  height:60px;
+  /* padding:2rem 0; */
+}
+.hire-btn button {
+  background-color:#242653;
+  padding:1.2rem 4rem;
+  float:right;
+  border: none;
+  border-radius:5px;
+  margin-right:4rem;
+  
+
+
+}
+
+.hire-btn a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.blue-content {
+  background-color: var(--blue);
+  padding:3rem 0;
+  text-align: center;
+  color:white;
+}
+
+.blue-content p {
+  font-size:18px;
+  padding:1rem 0;
+  line-height:1.5rem;
+}
+
+.blue-content h2 {
+  font-size:30px;
+}
+
+.white-content {
+  padding:5rem 0;
+  text-align:center;
+  /* background-color: #798DC5; */
+}
+
+.white-content p {
+  font-size:18px;
+  padding:1rem 0;
+  line-height:1.5rem;
+}
+
+.white-content h2 {
+  font-size:30px;
+}
+
+.contact {
+  /* background-color:yellow; */
+  width:90%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 0 auto;
+
+}
+
+.contact p {
+  /* background-color:blue; */
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding:0 10px;
+  margin-top: 2.2rem;
+}
+
+.contact span {
+  width:30px;
+  display: inline-block;
+  height:30px;
+  /* background-color:purple; */
+  margin-right: 5px;
+}
+
+.contact img {
+  width: 100%;
+  height:100%;
+}
+
+/* Footer section */
+footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: var(--blue);
+  color: #fff;
+  line-height: 30px;
+  padding: 100px 0 30px;
+}
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col h3 {
+  width: auto;
+  height: 5px;
+  margin-bottom: 40px;
+  position: relative;
+}
+footer a{
+  display: inline-block;
+  background: var(--blue);
+  color: #fff;
+}
