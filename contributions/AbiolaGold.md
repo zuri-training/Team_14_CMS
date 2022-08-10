@@ -19,7 +19,7 @@ Error page Desktop wireframe https://www.figma.com/file/KUXA9TjkYyUWDkSNTewHbU/C
 Sign in page Desktop wireframe design https://www.figma.com/file/kokVUh8TvoS7fkXZs7UPkN/Untitled?node-id=2%3A155656
 
 Resolved issues
-https://github.com/zuri-training/Team_14_CMS/issues/30
+https://github.com/zuri-training/Team_14_CMS/issues/58
 https://github.com/zuri-training/Team_14_CMS/issues/51
 https://github.com/zuri-training/Team_14_CMS/issues/53
 https://github.com/zuri-training/Team_14_CMS/issues/29
