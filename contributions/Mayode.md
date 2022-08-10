@@ -1,4 +1,4 @@
-###My contributions 
+### My contributions 
 I designed the Wireframe, Low fidelity and High fidelity of the Registration page(both the website and mobile screens). I worked with Solange to achieve this
 I designed the wireframe, Low fidelity and High fidelity of the template page for blog.
 
