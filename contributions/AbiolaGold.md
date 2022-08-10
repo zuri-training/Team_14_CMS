@@ -17,3 +17,6 @@ Error page Desktop low-Fi design https://www.figma.com/file/KUXA9TjkYyUWDkSNTewH
 Error page Desktop wireframe https://www.figma.com/file/KUXA9TjkYyUWDkSNTewHbU/CMS?node-id=1950%3A47483
 
 Sign in page Desktop wireframe design https://www.figma.com/file/kokVUh8TvoS7fkXZs7UPkN/Untitled?node-id=2%3A155656
+
+Resolved issues
+https://github.com/zuri-training/Team_14_CMS/issues/30
