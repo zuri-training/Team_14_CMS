@@ -22,3 +22,4 @@ Resolved issues
 https://github.com/zuri-training/Team_14_CMS/issues/30
 https://github.com/zuri-training/Team_14_CMS/issues/51
 https://github.com/zuri-training/Team_14_CMS/issues/53
+https://github.com/zuri-training/Team_14_CMS/issues/29
