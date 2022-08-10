@@ -43,3 +43,6 @@
 ## assigned issues for creating template pages to frontend;
     https://github.com/zuri-training/Team_14_CMS/issues
    
+## collaborated in database schema
+    https://github.com/zuri-training/Team_14_CMS/issues/44
+   
