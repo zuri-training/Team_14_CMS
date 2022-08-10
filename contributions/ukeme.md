@@ -1,1 +1,12 @@
 ***
+Task allocated
+
+Documentation
+Interview script questions
+main Template screen
+preview template screen
+Admin page for editting template
+corrections on style guide
+Redo Buttons
+Corrections on all the template screens
+creation of mobile screens for template and preveiew template
