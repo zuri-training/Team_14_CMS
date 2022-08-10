@@ -6,6 +6,7 @@
 ### Designed wireframes, lo fi and hi for template pages for blog and portfolio respectively [See here](https://www.figma.com/file/kokVUh8TvoS7fkXZs7UPkN/CMS-2-(Team_14)?node-id=21%3A24701)
 ### Designed slides for the presentation [See here](https://www.figma.com/file/kokVUh8TvoS7fkXZs7UPkN/CMS-2-(Team_14)?node-id=55%3A32566)
 ### Designed Registration verification page [See here](https://www.figma.com/file/kokVUh8TvoS7fkXZs7UPkN/CMS-2-(Team_14)?node-id=0%3A1)
+### Designed Sign in for Mobile Version [See here](https://www.figma.com/file/kokVUh8TvoS7fkXZs7UPkN/CMS-2-(Team_14)?node-id=2%3A21275)
 # Issues Resolved
 https://github.com/zuri-training/Team_14_CMS/issues/58
 https://github.com/zuri-training/Team_14_CMS/issues/53
