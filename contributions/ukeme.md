@@ -8,7 +8,7 @@
 ## Create Admin page for editting template
 ## Corrections on all the template screens https://www.figma.com/file/kokVUh8TvoS7fkXZs7UPkN/CMS-2-(Team_14)?node-id=21%3A24701 
 ## Corrections on style guide and Redo Buttons https://www.figma.com/file/KUXA9TjkYyUWDkSNTewHbU/CMS?node-id=1971%3A36308
-## Creation of template mobile screensand preveiew template (wireframes, low-fi and hi-fi)
+## Creation of template mobile screen and preveiew template (wireframes, low-fi and hi-fi)https://www.figma.com/file/KUXA9TjkYyUWDkSNTewHbU/CMS?node-id=1950%3A28823
 ## Creation of slides for presentation https://www.figma.com/file/kokVUh8TvoS7fkXZs7UPkN/CMS-2-(Team_14)?node-id=55%3A32566
 
 
