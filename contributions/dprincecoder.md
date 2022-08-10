@@ -28,14 +28,18 @@
 ## merged a PR from holade
     https://github.com/zuri-training/Team_14_CMS/commit/2bf65ec6de9fd41fb2779be230d071f3193d74b2
 
-## create a sigin in page;
+## developed a sigin in page;
     
 
 
-## create a registration page;
+## developed a registration page;
 
 
-## create a 404 not found page;
+## developed a 404 not found page;
 
 
 ## took over registration page, previously assigned user was not fine and available;
+
+## assigned issues for creating template pages to frontend;
+    https://github.com/zuri-training/Team_14_CMS/issues
+   
