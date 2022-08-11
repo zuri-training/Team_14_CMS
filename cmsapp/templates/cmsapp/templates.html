@@ -1,0 +1,262 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/webBuildr.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="{% static 'templates_folder/templates.css' %}">
+    <title>WebBuildr | Templates page</title>
+</head>
+<body>
+    <header>
+        <div class="container flex">
+            <div class="logo" onclick='Homepage()'>
+                <img src="{% static 'images/nav/logo.svg' %}" alt="WebBuildr">
+            </div>
+            <div class="links">
+                <a href="#">Template</a>
+                <a href="#">Resource</a>
+            </div>
+            <div class="mobile__menu">
+                <i class="bi bi-list"></i>
+            </div>
+        </div>
+    </header>
+    <hr class="hr-1">
+    <main>
+        <section class="mobile__hero hidden">
+            <div class="container">
+                <h2>Make any template yours with ease.</h2>
+                <div class="mobile__hero-btn">
+                    <a href="#" class="filter">
+                        <i class="bi bi-funnel"></i>
+                        <span>Filter</span>
+                    </a>
+                    <div class="bar"></div>
+                    <a href="#" class="favorite">
+                        <i class="bi bi-heart"></i>
+                        <span>Favorite</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="cat__container">
+                <div class="cat__item">
+                    <img src="./images/categories/blog.png" alt="">
+                    <h3>Blog</h3>
+                </div>
+                <div class="cat__item">
+                    <img src="./images/categories/ecommerce.png" alt="">
+                    <h3>Ecommerce</h3>
+                </div>
+                <div class="cat__item">
+                    <img src="./images/categories/portfolio__.png" alt="">
+                    <h3>Portfolio</h3>
+                </div>
+                <div class="cat__item">
+                    <img src="./images/categories/resturant.png" alt="">
+                    <h3>Resturant</h3>
+                </div>
+                <div class="cat__item">
+                    <img src="./images/categories/landing.png" alt="">
+                    <h3>Landing Page</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="topic">
+            <div class="container">
+                <div class="wrapper">
+                    <h2>Topic</h2>
+                    <div class="topic__text">
+                        <div class="topics">
+                            <a href="">All templates</a>
+                            <a href="">Popular designs</a>
+                            <a href="">Art and design</a>
+                            <a href="">Photography</a>
+                            <a href="">Health</a>
+                        </div>
+                        <div class="topics">
+                            <a href="">Fashion</a>
+                            <a href="">Local business</a>
+                            <a href="">Professional services</a>
+                            <a href="">Personal and CV</a>
+                            <a href="">Weddings</a>
+                        </div>
+                        <div class="topics">
+                            <a href="">Entertainment</a>
+                            <a href="">Food</a>
+                            <a href="">Travel</a>
+                            <a href="">Home and decor</a>
+                            <a href="">Resturant</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="topic__button">
+                    <a href="#" class="btn">
+                        <i class="bi bi-heart"></i>
+                        <p>My Favourite</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="templates">
+            <div class="container">
+                <h2>All Templates</h2>
+                <div class="template__grid">
+                    <div class="template__item">
+                        <img src="./images/templates/inyang.png" alt="">
+                        <div class="templates__item-text">
+                            <h3>Inyang</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                    <div class="template__item">
+                        <img src="./images/templates/pams.png" alt="">
+                        <div class="templates__item-text">
+                            <h3>Pams</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                    <div class="template__item">
+                        <img src="./images/templates/chad.png" alt="">
+                        <div class="templates__item-text">
+                            <h3>Chad</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                    <div class="template__item">
+                        <img src="./images/templates/glams.png" alt="">
+                        <div class="templates__item-text">
+                            <h3>Glams</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                    <div class="template__item">
+                        <img src="./images/templates/olive.png" alt="">
+                        <div class="templates__item-text">
+                            <h3>Olive</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                    <div class="template__item">
+                        <img src="./images/templates/seren.png" alt="">
+                        <div class="templates__item-text">
+                            <h3>Seren</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                    <div class="template__item">
+                        <img src="./images/templates/clady.png" alt="">
+                        <div class="templates__item-text">
+                            <h3>Clady</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                    <div class="template__item">
+                        <img src="./images/templates/jayn.png" alt="">
+                        <div class="templates__item-text">
+                            <h3>Jayn</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                    <div class="template__item">
+                        <img src="./images/templates/pedro.png" alt="">
+                        <div class="templates__item-text">
+                            <h3>Pedro</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h3>Product</h3>
+                <p><a href="#">Designer</a></p>
+                <p><a href="#">Enterprise</a></p>
+                <p><a href="#">CMS</a></p>
+                <p><a href="#">Editor</a></p>
+                <p><a href="#">SEO</a></p>
+                <p><a href="#">Security</a></p>
+            </div>
+            <div class="col">
+                <h3>Community</h3>
+                <p><a href="#">Help Center</a></p>
+                <p><a href="#">About</a></p>
+                <p><a href="#">Terms of Service</a></p>
+                <p><a href="#">Cookie Policy</a></p>
+                <p><a href="#">Cookie Preference</a></p>
+            </div>
+            <div class="col">
+                <h3>Features</h3>
+                <p><a href="#">Template</a></p>
+                <p><a href="#">Hosting</a></p>
+                <p><a href="#">Interaction</a></p>
+                <p><a href="#">Logo Maker</a></p>
+            </div>
+             <div class="col">
+                <h3>Follow</h3>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">Linkedin</a></p>
+                <p><a href="#">Facebook</a></p>
+            </div>
+            <div class="col">
+                <h3>Resources</h3>
+                <p><a href="#">Tutorial videos</a></p>
+                <p><a href="#">Portfolio</a></p>
+                <p><a href="#">Hire an expert</a></p>
+                <p><a href="#">upcoming webinar</a></p>
+            </div>
+        </div>
+        <div class="mobile__footer">
+            <div class="container">
+                <div class="footer__item-list">
+                    <div class="footer__item">
+                        <h3>Product</h3>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                    <div class="footer__item">
+                        <h3>Community</h3>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                    <div class="footer__item">
+                        <h3>Features</h3>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                    <div class="footer__item">
+                        <h3>Follow</h3>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                    <div class="footer__item">
+                        <h3>Resourses</h3>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="footer__btn">
+                    <a href="">
+                        <span>English</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </div>
+                <div class="footer__logo">
+                    <img src="./images/footer__logo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function Homepage() {
+                window.location.replace('{% url "cmsapp:landingpage" %}')
+            }
+        </script>
+</body>
+</html>

@@ -101,7 +101,7 @@ Registration page/registration for new website creation: Akintola Moyade and Aje
 
 Template page:Inyang Ukeme and Oloko Aishat
 
-Admin page: Obinna Emmanuel, Victoria Dan and Vivian Okere
+Admin page: Obinna Emmanuel, Victoria Dan, and Vivian Okere
 
 Error page: Michael Abiola Idiaka, Obinna Emmanuel
 

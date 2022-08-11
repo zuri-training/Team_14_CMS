@@ -1,4 +1,4 @@
-# Commits Made by **Dilibe**
+# Contributions Made by **Dilibe**
 
 ## [Updated the .gitignore to ignore some files](https://github.com/zuri-training/Team_14_CMS/commit/6bec32b34c0dc6923c7a6e1f7465b22e32dabb03)
 	https://github.com/zuri-training/Team_14_CMS/commit/6bec32b34c0dc6923c7a6e1f7465b22e32dabb03
@@ -23,3 +23,9 @@
 
 ## [Resolved a mapping Error](https://github.com/zuri-training/Team_14_CMS/commit/d14f84bda15dcdec83f9ed9872f298c509ca3a68)
 	https://github.com/zuri-training/Team_14_CMS/commit/d14f84bda15dcdec83f9ed9872f298c509ca3a68
+
+# Issue Resolved
+
+- [Issue 48](https://github.com/zuri-training/Team_14_CMS/issues/48)
+- [Issue 46](https://github.com/zuri-training/Team_14_CMS/issues/46)
+- [Issue 44](https://github.com/zuri-training/Team_14_CMS/issues/44)
