@@ -9,4 +9,5 @@ https://github.com/zuri-training/Team_14_CMS/commit/4bd257bbc137b264b76f54ce4d1a
 ## Turn the resouces p tag to a tag so it can be used as linkage
 https://github.com/zuri-training/Team_14_CMS/commit/177d06b5fb09b26e0a236497f39bb7844c70475f
 
-## Create a blog page
+## Create the blog page
+https://github.com/zuri-training/Team_14_CMS/commit/80c0adfbd44d05bed8102fc8a1cb5f5c9c02869f
