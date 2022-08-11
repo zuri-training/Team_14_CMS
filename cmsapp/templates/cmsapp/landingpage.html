@@ -51,7 +51,7 @@
             <ul>
                 <li>Product<span><img src="{% static 'images/nav/downArrow.svg' %}" alt="" /></span></li>
                 <li>Resource<span><img src="{% static 'images/nav/downArrow.svg' %}" alt="" /></span></li>
-                <li>Templates</li>
+                <li onclick="getStarted()">Templates</li>
                 <li>Hire an expert</li>
             </ul>
 
@@ -378,4 +378,4 @@
     function getStarted() {
         window.location.replace("{% url 'cmsapp:templates_page' %}")
     }
-  </script>
+</script>
