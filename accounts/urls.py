@@ -9,7 +9,7 @@ urlpatterns = [
     path('login/', auth_views.LoginView.as_view(
                                                 template_name='accounts/login.html',
                                                 redirect_authenticated_user=True,
-                                                success_url="landingpage"
+                                                success_url="cmsapp:landingpage"
                                                 ), name='login'),
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),
     path('emailconfirmation/', views.emailconfirmation, name="registerconfirmation")

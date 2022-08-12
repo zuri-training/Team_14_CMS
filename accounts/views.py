@@ -10,7 +10,7 @@ class SignUpView(generic.CreateView):
     form_class = forms.SignUpForm
     
     # if the sign up is successful it redirects to the login page
-    success_url = reverse_lazy('account:login')
+    success_url = reverse_lazy('accounts:login')
     
     # directory of the used template
     template_name = 'accounts/signup.html'
