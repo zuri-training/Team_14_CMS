@@ -76,3 +76,164 @@
     font-size: 14px;
     color: #E4E8F3;
 }
+
+/* blog STYLES */
+.blog__section {
+    background-color: #ffffff;
+    height: 800px;
+    padding: 0px 120px;
+    margin-top: -450px;
+
+  }
+  
+  .blog__container {
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  .blog__h1 {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-family: 'Campton';
+    margin-top: 21px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #090914;
+  }
+
+  .blog__h2 {
+    margin-bottom: 72px;
+    margin-top: 21px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    color: #1d1f42;
+  }
+  
+  .blog__card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .blog__card-wrapper1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 100px;
+  }
+
+
+  
+  .blog__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 148px;
+    background: #f8f8f8;
+    box-shadow: 0px 4px 4px rgba(39, 39, 39, 0.1),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+  }
+  
+  .blog__card-image {
+    margin-top: -50px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+  }
+  
+  .blog__card-image img {
+    width: 100%;
+  }
+  
+  .blog__card-body {
+    margin-top: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .blog__card1-text-p {
+    width: 83px;
+    height: 19px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    color: #898b91;
+    margin-top: 30px;
+    margin-left: 839px;
+    font-family: 'Campton';
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 19px  
+  }
+
+
+.btn {
+    width: 185px;
+    color: #898b91;
+}
+
+  .blog__card-text-p {
+    margin-bottom: -10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: var(--blue);
+  }
+  
+  .blog__hr {
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+  
+  .blog__h4 {
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--blue);
+  }
+  /* blog STYLES */
+  
+  /* PARTNERS SECTION STYLES */
+  .partners__section {
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  
+  .partners__images-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .partners__images-container img {
+    margin-right: 48px;
+    margin-bottom: 38px;
+    height: 32px;
+  }
+  
+  .partners__h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #090914;
+  }
