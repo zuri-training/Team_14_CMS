@@ -2,43 +2,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 
+body{
+        width: 10%;
+        max-width: 1024px;
+        min-height: 100vh;
+}
+
+
+
+
+html{
+      margin-left: -280px; 
+     margin-right: 0;
+     width: 100%;
+    box-sizing: border-box;
+}
 
 *{
     font-family: "Campton", sans-serif;
+    margin-right: 0;
+    padding-right: 0;
 }
-
-/* 
- 
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.back{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-}
-
-.back div {
-    margin:10px;
-}
-
-.back p {
-    margin: 10px;
-}
-
-.nav-btns button{
-    background-color: #242652;
-        color: #C7E4EA;
-            width: 200px;
-            height: 44px;
-            border-radius: 8px;
-            margin-top: 10px;
-}
- */ 
-
 
 
 .img1{
@@ -70,8 +54,9 @@ nav{
 
 .portfolio-details{
 margin-left: 280px;
-    margin-right: 280px;
-    border: 1px solid black;
+    margin-right: -1000px;
+    max-width: 56.5vw;
+    
 }
 
 .underline{
@@ -222,7 +207,7 @@ footer{
 .blue-details1{
     position: absolute;
     top: 1300px;
-    left: 310px;
+    left: 32px;
 }
 /* 
 .check-img{
@@ -239,13 +224,13 @@ footer{
 .blue-details2 {
     position: absolute;
     top: 1300px;
-    left: 600px;
+    left: 320px;
 }
 
 .blue-details3 {
     position: absolute;
     top: 1300px;
-    left: 882px;
+    left: 602px;
 }
 
 .first-p{
@@ -275,19 +260,19 @@ footer{
 .blue-details4 {
     position: absolute;
     top: 1880px;
-    left: 310px;
+    left: 32px;
 }
 
 .blue-details5 {
     position: absolute;
     top: 1880px;
-    left: 600px;
+    left: 320px;
 }
 
 .blue-details6 {
     position: absolute;
     top: 1880px;
-    left: 882px;
+    left: 602px;
 }
 
 .view-more{
