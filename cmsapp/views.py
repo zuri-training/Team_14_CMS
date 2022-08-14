@@ -29,3 +29,11 @@ class CreateTemplate(CreateView):
 def templates_page(request):
     """ Function to render the templates page """
     return render(request, 'cmsapp/templates.html')
+
+def product_page(request):
+    """ Function to render the product page """
+    return render(request, 'cmsapp/404.html')
+
+def hire_an_expert_page(request):
+    """ Function to render the hire an expert page """
+    return render(request, 'cmsapp/404.html')
