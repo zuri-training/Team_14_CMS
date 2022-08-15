@@ -49,10 +49,10 @@
             </div>
 
             <ul>
-                <li>Product<span><img src="{% static 'images/nav/downArrow.svg' %}" alt="" /></span></li>
-                <li>Resource<span><img src="{% static 'images/nav/downArrow.svg' %}" alt="" /></span></li>
+                <li><a href="{% url 'cmsapp:product_page' %}" style="color:#243653;">Product</a></li>
+                <li><a href="{% url 'cmsapp:resource_page' %}" style="color:#243653;">Resource</a></li>
                 <li onclick="getStarted()">Templates</li>
-                <li>Hire an expert</li>
+                <li> <a href="{% url 'cmsapp:hire_an_expert_page' %}" style="color:#243653;">Hire an expert</a></li>
             </ul>
 
             <div class="nav-btns">
