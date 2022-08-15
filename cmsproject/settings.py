@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path 
 import os
-import django_heroku
 import dj_database_url
 
 
@@ -42,7 +41,24 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cmsapp'
+    'whitenoise.runserver_nostatic',
+    
+    # User Created Apps
+    'cmsproject',
+    'cmsapp.apps.CmsappConfig',
+    'accounts',
+    
+    # Third Party Plugins
+    # 'social_django',
+    # 'social_django_mongoengine',
+
+    # Social Authentication
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
+
+    
 ]
 
 MIDDLEWARE = [
@@ -112,7 +128,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# chamge the time zone to our local time zone
+TIME_ZONE = 'Africa/Lagos'
 
 USE_I18N = True
 
@@ -125,10 +142,64 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRs= (os.path.join(BASE_DIR/'STATIC'),)
-django_heroku.settings(locals())
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-STATIC_ROOT=os.path.join(BASE_DIR, 'STATIC')
+
+# LOGIN_REDIRECT_URL = 'landingpage'
+
+LOGOUT_REDIRECT_URL = 'landingpage'
+
+# Connecting the base url to the media folder
+
+MEDIA_URL = "/image/"
+
+# COnnecting path to the media is stored
+
+MEDIA_ROOT = BASE_DIR / 'image/'
+
+import django_heroku
+django_heroku.settings(locals())
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend'
+]
+
+# Setting for thwe social authentcation
+SITE_ID = 1
+
+SOCIALACCOUNT_QUERY_EMAIL = True
+
+ACCOUNT_LOGOUT_ON_GET = True
+
+ACCOUNT_UNIQUE_EMAIL = True
+
+ACCOUNT_EMAIL_REQUIRED = True
+
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'SCOPE': [
+            'profile',
+            'email',
+        ],
+        'AUTH_PARAMS' : {
+            'access_type' : 'online',
+        }
+    }
+    # "apple" : {
+    #     "APP" : {
+    #     'client_id':
+    #     'secret':
+    #     'key':
+    #     'certificate_key':
+    #     }
+    # }
+}

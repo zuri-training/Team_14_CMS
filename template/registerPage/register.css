@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.action-btns {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  /* width: 100%; */
+}
+
+.action-btn-go-back,
+.action-btn-go-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  outline: none;
+  border: none;
+
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #110000;
+  text-transform: uppercase;
+}
+
+.go-back-svg {
+  margin: 5px;
+}
+
+.go-back-svg img {
+  width: 18px;
+}
+
+.register-main {
+  /* width: 100%; */
+  margin: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-logo {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.register-logo-img {
+  width: 150px;
+}
+
+.create-account {
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #242653;
+}
+
+.form-container {
+  margin: 0 1rem;
+}
+
+.form-action-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-action-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  width: 794px;
+  margin-bottom: 1rem;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.or {
+  /* width: 100%; */
+  text-align: center;
+  margin: 2rem 0;
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #242653;
+}
+
+.form-body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-division {
+  display: flex;
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #9a9ea5;
+  padding: 10px;
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background-color: transparent;
+}
+
+.form-control::placeholder {
+  color: #acaeb6;
+}
+
+.form-control:focus {
+  outline: 0;
+}
+
+.dv1 {
+  margin-right: 8px;
+}
+
+.form-group-btn {
+  margin: 2rem 0;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.register-btn {
+  padding: 15px 30px;
+  border: 0;
+  width: 100%;
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  text-align: center;
+
+  color: #f5f6f8;
+  background: #242653;
+  border-radius: 8px;
+}
+
+.form-checkbox-wrap {
+  display: flex;
+  width: 100%;
+}
+
+.register-form-checkbox {
+  background: #292d32;
+  margin-right: 2rem;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (min-width: 296px) and (max-width: 768px) {
+  .action-btns {
+    padding: 0 2rem;
+    margin: 1rem 0;
+    width: 100%;
+    display: none;
+  }
+  .create-account {
+    font-size: 20px;
+  }
+  .form-container {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .register-main {
+    width: 100%;
+    margin: 5em 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .form-action-btns {
+    width: 100%;
+  }
+
+  .form-action-btn {
+    width: 100%;
+  }
+  .go-back-svg img {
+    width: 12px;
+  }
+  .action-btn-go-back,
+  .action-btn-go-login {
+    font-size: 13px;
+  }
+  .apple-btn {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+  }
+
+  .apple-btn p {
+    font-family: "Campton";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 10px;
+    color: #f5f6f8;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  hr {
+    margin: 2rem 0;
+    border: 1px solid #242653;
+  }
+
+  .register-form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .register-form-footer p {
+    font-family: "Campton";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  .register-form-footer a {
+    font-family: "Campton";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #242653;
+  }
+}

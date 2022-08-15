@@ -1,0 +1,98 @@
+.not-found {
+  width: 100%;
+  height: 100%;
+  margin: 3rem;
+}
+
+.notfound-logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 3rem 0;
+}
+
+.notfound-svg-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound-svg-img {
+  width: 350px;
+  height: 100%;
+}
+
+.notfound-btn-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.notfound-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound-btn1 {
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  background: #242653;
+  border-radius: 8px;
+}
+
+.notfound-btn2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid #e4e8f3;
+}
+
+.notfound-btn-link {
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #e4e8f3;
+}
+
+.cl2 {
+  color: #798dc5;
+}
+
+@media screen and (max-width: 768px) {
+  .notfound-container {
+    flex-direction: column;
+  }
+
+  .notfound-btn1 {
+    margin-right: 5px;
+  }
+
+  .not-found-svg-img {
+    width: 300px;
+  }
+
+  .not-found {
+    margin: 0;
+  }
+}

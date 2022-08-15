@@ -1,0 +1,86 @@
+{% load static %}
+{% load socialaccount %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome back" />
+    <meta name="keywords" content="signin, signup, login, register" />
+    <link rel="icon" type="image/x-icon" href="{% static 'images/webBuildr.png' %}">
+    <link
+      rel="stylesheet"
+      href="{% static 'webkit-campton/camptonextrabold-webfont.woff' %}"
+    />
+    <link rel="stylesheet" href="{% static 'signin/sign.css' %}" />
+    <title>WebBuilder</title>
+</head>
+<body>
+  <main>
+      <div class="sign-grid">
+        <div class="sigin-information signin-gridbox">
+          <div class="grid-logo">
+            <img src="{% static 'images/nav/logo.svg' %}" alt="logo" onclick="homepage()" />
+          </div>
+          <div class="signin-wrapper">
+            <div class="signin-title">
+              <h2>Log Into My Account</h2>
+            </div>
+            <div class="google-sign-wrapper">
+              <div class="google-sign-in" title="This is just for design purposes">
+                <a href="{% provider_login_url 'google' %}"
+                  ><img src="{% static 'signin/assets/google-logo.svg' %}" alt="google-logo"
+                /></a>
+              </div>
+              <p class="or">or</p>
+            </div>
+            <div class="signin-body">
+              <form method="POST" class="signin-form">
+                  {% csrf_token %}
+                  {{ form.non_field_errors }}
+                  <div class="form-group">
+                    {{ form.username.errors }}
+                    <input type="text" class="form-control" name="{{ form.username.label|lower }}" value="" placeholder="Username or Email" id="{{ form.username.id_for_label }}">
+                  </div>
+                  <div class="form-group">
+                    {{ form.password.errors }}
+                    <input type="password" class="form-control" name="{{ form.password.label|lower }}" value="" placeholder="Password" id="{{ form.password.id_for_label }}">
+                  </div>
+                  <div class="form-group-btn">
+                  <button type="submit" value="Sign In" class="signin-btn" onmouseover="change(this)" onmouseout="chang(this)">
+                    Log In
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="signin-options">
+              <p>
+                <a href="{% url 'accounts:signup' %}">Don't Have an Account?</a>
+              </p>
+              <p>
+                <a href="#">Forgot password?</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="signin-svg signin-gridbox">
+          <div class="girl-svg-wrap">
+            <img src="{% static 'signin/assets/girl.svg' %}" alt="Girl Svg" class="girl-svg-img" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script type="text/javascript">
+    function change (el) {
+      el.setAttribute('style', "font-size:20px");
+    }
+    function chang (el) {
+      el.setAttribute('style', "background-color: #242653; color: white");
+    }
+    function homepage() {
+      window.location.replace('{% url "cmsapp:landingpage" %}')
+    }
+  </script>
+</html>

@@ -1,0 +1,142 @@
+{% load static %}
+{% load socialaccount %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="{% static 'registerPage/register.css' %}" />
+    <link rel="icon" type="image/x-icon" href="{% static 'images/webBuildr.png' %}">
+    <title>Register With Us</title>
+  </head>
+  <body>
+    <div class="action-btns">
+      <button class="action-btn-go-back" onclick="Back()">
+        <span class="go-back-svg">
+          <img src="{% static 'registerPage/assets/backIcon.svg' %}" alt="" />
+        </span>
+        back
+      </button>
+      <button class="action-btn-go-login some" onclick="Login()">login</button>
+    </div>
+    <main class="register-main">
+      <div class="main-container">
+        <div class="register-logo">
+          <img src="{% static 'registerPage/assets/logo.svg' %}" alt="" class="register-logo-img" />
+        </div>
+        <p class="create-account">Create Your Account</p>
+        <div class="form-container">
+          <div class="form-action-btns">
+            <button class="form-action-btn" onclick="google()">
+              <img src="{% static 'registerPage/assets/google-logo.svg' %}" class="form-action-google-logo" alt="" />
+            </button>
+            <button class="form-action-btn">
+              <img src="{% static 'registerPage/assets/appleLogo.svg' %}" class="form-action-apple-logo" alt="" />
+            </button>
+          </div>
+          <p class="or">or</p>
+          <form action="" method="POST" class="form-body">
+                {% csrf_token %}
+                {{ form.non_field_errors }}
+
+
+
+            <div class="form-division"> 
+              {{ form.first_name.errors }}
+              {{ form.last_name.errors }}
+              <div class="form-group dv1">
+                <input
+                  type="text"
+                  class="form-control"
+                  type="text"
+                  name="first_name"
+                  id="firstname"
+                  placeholder="First Name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  type="text"
+                  name="last_name"
+                  id="lastname"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+            <div class="form-division"> 
+                {{ form.email.errors }}
+                {{ form.username.errors }}
+              <div class="form-group dv1">
+                <input
+                  type="text"
+                  class="form-control"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  type="text"
+                  name="username"
+                  id="email"
+                  placeholder="Username"
+                />
+              </div>
+            </div>
+            <div class="form-division"> 
+              {{ form.password1.errors }}
+              {{ form.password2.errors }}
+              <div class="form-group dv1">
+                <input
+                  class="form-control"
+                  type="password"
+                  name="password1"
+                  id="password"
+                  placeholder="Password "
+                />
+              </div>
+              <div class="form-group"> 
+                <input
+                  class="form-control"
+                  type="password"
+                  name="password2"
+                  id="password"
+                  placeholder="Password Again"
+                />
+              </div>
+            </div>
+            <div class="form-group-btn">
+              <input type="submit" class="register-btn" value="Create Account">
+            </div>
+          </form>
+          <div class="form-checkbox-wrap">
+            <input type="checkbox" class="register-form-checkbox" />
+            <p>
+              Signing up for a WebBuildr account means you agree to the Privacy
+              Policy and Terms of Service.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script type="text/javascript">
+    function Login() {
+      window.location.replace("{% url 'accounts:login' %}");
+    }
+    function Back() {
+      history.go(-1);
+    }
+    function google() {
+      window.open("{% provider_login_url 'google' %}",
+                    'popUpWindow',
+                    'height=500,width=400,left=400,top=50,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
+    }
+  </script>
+</html>

@@ -1,0 +1,9 @@
+- I created a super user.
+- I created the models, urls and views.
+- I created and updated the requirements.txt
+- I created the html to link front end to backend.
+- I created static to link frontend styles and responsiveness to the backend.
+- I created runtime.txt
+- I created Procfile
+- I created a heroku link for the project. It was later abandoned.
+- I created a branch deploy_test.

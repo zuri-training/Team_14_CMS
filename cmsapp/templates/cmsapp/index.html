@@ -1,7 +1,4 @@
-
 {% load static %}
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,12 +55,10 @@
                 <li>Hire an expert</li>
             </ul>
 
-            {%comment%}
             <div class="nav-btns">
-                <button> <a href="{% url 'accounts:login' %}">LOG IN</a></button>
-                <button> <a href="{% url 'accounts:signup' %}">GET STARTED</a></button>
+                <button> <a href="{% url 'account:login' %}">LOG IN</a></button>
+                <button> <a href="{% url 'account:signup' %}">GET STARTED</a></button>
             </div>
-        {%endcomment%}
         </nav>
     </header>
 <!-- ---------------------------------------------------------------------------- -->
@@ -78,9 +73,7 @@
                 <div>
                     <p>Further <span>Your</span> Effort <br><span>Using</span> WebBuildr.</p>
                     <p>The easiest and fastest way to build your website. <br> No coding,Zero charges</p>
-            {%comment%}
                     <button><a href="{% url 'account:signup' %}"></a>GET STARTED</a></button>
-                    {%endcomment%}
                     
                 </div>
                 
@@ -379,17 +372,3 @@
 <script>
     AOS.init();
   </script>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
