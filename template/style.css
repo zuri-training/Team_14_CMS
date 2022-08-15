@@ -11,8 +11,7 @@
 
 @font-face {
   font-family: "Campton";
-  src: url("./webkit-campton/camptonblack-webfont.woff") format("woff2"),
-    format("woff");
+  src: url("./webkit-campton/camptonblack-webfont.woff") format("woff");
 }
 
 /* BASIC RESETS */
@@ -119,80 +118,75 @@ span {
   top: 0;
 }
 /* NAV STYLES */
- .navbar {
+.navbar {
   width: 100vw;
-  height:15vh;
-  padding:0 5rem;
-  background-color: #FFFFFF;
+  height: 15vh;
+  padding: 0 5rem;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: #242653;
   font-family: "Campton", sans-serif;
-  position:fixed;
+  position: fixed;
   top: 0;
   z-index: 10000;
-
- }
+}
 .navbar a {
   background-color: rgba(255, 255, 255, 0);
 }
- .navbar ul {
-  display:inline-flex;
-  
- }
- .navbar ul li {
+.navbar ul {
+  display: inline-flex;
+}
+.navbar ul li {
   padding: 1rem 0;
   margin: 0 1rem;
   cursor: pointer;
   font-size: 16px;
- }
+}
 
- .nav-btns button:first-of-type {
+.nav-btns button:first-of-type {
   width: 157px;
-  height:56px;
+  height: 56px;
   border: none;
   border-radius: 8px;
-  background-color:#ffffff00;
+  background-color: #ffffff00;
   /* background-color:pink; */
-  
 }
 .nav-btns button:first-of-type a {
-   font-size:16px;
+  font-size: 16px;
   color: #242653;
   font-weight: 700;
- }
+}
 
- .nav-btns button:last-of-type {
+.nav-btns button:last-of-type {
   width: 157px;
-  height:56px;
+  height: 56px;
   border: none;
   background-color: #242653;
   border-radius: 8px;
 }
 .nav-btns button:last-of-type a {
   font-weight: 600;
-  font-size:14px;
+  font-size: 14px;
 }
 
-
-/* HERO SECTION */ 
+/* HERO SECTION */
 .hero-section {
   width: 100%;
   height: 85vh;
   display: flex;
-  margin-top:15vh;
+  margin-top: 15vh;
   flex-direction: row;
   align-items: center;
-  color:white;
+  color: white;
   background-color: var(--blue);
   overflow-x: hidden;
-  padding:0 0 1rem 1rem;
-  
+  padding: 0 0 1rem 1rem;
 }
 .hero-section span {
-  color: #798DC5;
-  margin:0;
+  color: #798dc5;
+  margin: 0;
 }
 .hero-left {
   width: 50%;
@@ -203,31 +197,28 @@ span {
 .hero-arrow {
   /* background-color: pink; */
   display: flex;
-  width:16%;
+  width: 16%;
   flex-direction: column;
-  
+
   position: relative;
   top: 15%;
-  
-
 }
 .hero-arrow img:first-of-type {
   position: absolute;
-  height:75%;
-  bottom:11%;
-  right:14%;
-  
+  height: 75%;
+  bottom: 11%;
+  right: 14%;
 }
 
-.hero-arrow img:last-of-type{
+.hero-arrow img:last-of-type {
   position: absolute;
-  bottom:6%;
-  right:20%;
+  bottom: 6%;
+  right: 20%;
 }
 
 .hero-left p:first-of-type {
-  font-size:48px;
-  line-height:1.4;
+  font-size: 48px;
+  line-height: 1.4;
   font-weight: 700;
   margin-bottom: 2rem;
   /* font-family: "Campton", sans-serif; */
@@ -237,19 +228,19 @@ span {
   font-size: 22px;
   font-weight: 400;
   line-height: 1.4;
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
 }
 
 .hero-left button {
   cursor: pointer;
-  padding:1rem;
+  padding: 1rem;
   border: none;
   color: white;
-  background-color:#798DC5;
+  background-color: #798dc5;
   border-radius: 8px;
-  font-weight:200;
+  font-weight: 200;
 }
-.hero-right { 
+.hero-right {
   width: 50%;
   /* height:100%; */
   /* display:grid;
@@ -260,9 +251,6 @@ span {
   width: 100%;
   object-fit: contain;
 }
-
-
-
 
 /* sample text styles */
 .sample-container {
@@ -325,7 +313,7 @@ span {
   margin: 0 40px;
 }
 
-.portfolio_top{
+.portfolio_top {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -421,51 +409,50 @@ span {
   background: transparent;
 }
 
-.portfolio_bottom{
+.portfolio_bottom {
   display: flex;
   flex-direction: column;
   margin: 8.5rem 0;
   gap: 24px;
 }
-.portfolio_bottom h2{
-width: 1114px;
-height: 56px;
+.portfolio_bottom h2 {
+  width: 1114px;
+  height: 56px;
 
-font-family: 'Campton';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 56px;
-/* identical to box height */
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height */
 
-text-align: center;
-text-transform: capitalize;
+  text-align: center;
+  text-transform: capitalize;
 
-color: #090914;
+  color: #090914;
 }
 
-.info{
+.info {
   margin-top: 1.5rem;
 }
 
-.info hr{
-width: 217px;
-height: 5px;
-background: #798DC5;
-border-radius: 4px;
+.info hr {
+  width: 217px;
+  height: 5px;
+  background: #798dc5;
+  border-radius: 4px;
 }
 
-.info h3{
-font-family: 'Campton';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 37px;
+.info h3 {
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 37px;
 
-color: #090914;
-
+  color: #090914;
 }
-.info-1{
+.info-1 {
   display: flex;
   flex-direction: column;
   margin-right: auto;
@@ -473,23 +460,22 @@ color: #090914;
   gap: 24px;
 }
 
-.info-2{
-display: flex;
-flex-direction: column;
-margin-left: auto;
-gap: 24px;
-
+.info-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  gap: 24px;
 }
 
-.info-2 hr{
+.info-2 hr {
   margin-left: auto;
 }
 
-.info-4 hr{
+.info-4 hr {
   margin-left: auto;
 }
 
-.info-3{
+.info-3 {
   display: flex;
   flex-direction: column;
   margin-right: auto;
@@ -497,27 +483,26 @@ gap: 24px;
   gap: 24px;
 }
 
-.info-4{
+.info-4 {
   display: flex;
   flex-direction: column;
   margin-left: auto;
   padding: 0px;
   gap: 24px;
-
 }
 
-.info-5{
+.info-5 {
   margin-top: 3.5rem;
 }
-.info-5 h3{
-font-family: 'Campton';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 37px;
-text-align: end;
+.info-5 h3 {
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: end;
 
-color: #798DC5;
+  color: #798dc5;
 }
 /* END OF PORTFOLIO STYLES */
 
@@ -783,7 +768,7 @@ color: #798DC5;
 
 .faq__container h2 {
   margin-bottom: 48px;
-  font-family: 'Campton';
+  font-family: "Campton";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -801,13 +786,13 @@ color: #798DC5;
 }
 
 .faq__item p {
-  font-family: 'Campton';
+  font-family: "Campton";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #1D1F42;
+  color: #1d1f42;
 }
 
 .faq__container hr {
@@ -840,7 +825,7 @@ footer {
   margin-bottom: 40px;
   position: relative;
 }
-a{
+a {
   display: inline-block;
   background: var(--blue);
   color: #fff;
