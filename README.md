@@ -78,9 +78,10 @@ Finally, run  server
         'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '',
-     }
-  }
-  STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+        }
+      }
+      
+  	STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
  
 ### migrate again
 	~/myprojectdir/manage.py makemigrations
