@@ -28,7 +28,7 @@ Clone the repository
 	
 Move to the project folder
 
-	cd CMS_proj_14
+	cd Team_14_CMS
 
 Create a Virtual environment
 
@@ -36,7 +36,7 @@ Create a Virtual environment
 
 Activate the Virtual environment
 
-	env/Scripts/activate
+	env/Scripts/activate or env/bin/activate
 
 Install Dependencies
 
@@ -55,6 +55,46 @@ Finally, run  server
 	python manage.py runserver
 
 ## Feature Requested By Zuri
+
+# deploy to a server with nginx using gunicorn
+	sudo -u postgres psql
+	CREATE DATABASE myproject;
+	CREATE USER myprojectuser WITH PASSWORD 'password';
+	ALTER ROLE myprojectuser SET client_encoding TO 'utf8';
+	ALTER ROLE myprojectuser SET default_transaction_isolation TO 'read committed';
+	ALTER ROLE myprojectuser SET timezone TO 'UTC';
+	GRANT ALL PRIVILEGES ON DATABASE myproject TO myprojectuser;
+	quit postgreSql with \q;
+### install the required packages to deploy with:
+	pip install gunicorn psycopg2-binary
+### edit the prjectdir and include required files
+	sudo nano ~/myprojectdir/myproject/settings.py
+	ALLOWED_HOSTS = ['your_server_domain_or_IP', 'second_domain_or_IP', . . ., 'localhost']
+	DATABASES = {
+       'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'myproject',
+        'USER': 'myprojectuser',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'PORT': '',
+        }
+      }
+      
+  	STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+ 
+### migrate again
+	~/myprojectdir/manage.py makemigrations
+	~/myprojectdir/manage.py migrate
+### collectstatic files
+	python manage.py collectstatic
+## allow port if not done
+	sudo ufw allow 8000
+### test localhost
+	python manage.py runserver 0.0.0.0:8000
+	
+### finally bind gunicorn
+	gunicorn --bind 0.0.0.0:8000 csmproject.wsgi
 
 1. User: Unauthenticated
 	- Visit the platform to view basic information about it

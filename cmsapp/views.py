@@ -37,3 +37,7 @@ def product_page(request):
 def hire_an_expert_page(request):
     """ Function to render the hire an expert page """
     return render(request, 'cmsapp/404.html')
+
+def resource_page(request):
+    """ Function to render the resource page """
+    return render(request, 'cmsapp/404.html')
