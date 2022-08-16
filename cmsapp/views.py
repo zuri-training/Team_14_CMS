@@ -18,7 +18,6 @@ class LitsAvailableTemplates(ListView):
     model = Post
     template_name = "available_templates.html"
 
-
 # to create a new template 
 class CreateTemplate(CreateView):
     fields = ["title", "body", ]
@@ -29,6 +28,18 @@ class CreateTemplate(CreateView):
 def templates_page(request):
     """ Function to render the templates page """
     return render(request, 'cmsapp/templates.html')
+
+def jayn_page(request):
+    """ Function for the jayn page """
+    return render(request, 'cmsapp/jayn.html')
+
+def clady_page(request):
+    """ Function for the clady page """
+    return render(request, 'cmsapp/clady.html')
+
+def inyang_page(request):
+    """ Function for the inyang page """
+    return render(request, 'cmsapp/inyang.html')
 
 def product_page(request):
     """ Function to render the product page """

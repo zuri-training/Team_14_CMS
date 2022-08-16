@@ -11,15 +11,15 @@
 .img1 {
     background-image: url('./images/Rectangle\ 111.png');
     height: 552px;
-    width: 667px;
+    width: 800px;
 }
 
 .img2 {
     background-image: url('./images/Rectangle\ 109.png');
     height: 552px;
-    width: 667px;
+    width:800px;
     background-repeat: no-repeat;
-
+    margin-right: -30%;
 }
 
 .img-name {
@@ -35,8 +35,11 @@
 
 }
 
+    /* added ola touch  */
 .portfolio-details {
-    
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 300px 0 30px;
 }
 
 .underline {
@@ -65,7 +68,7 @@
     font-size: 24px;
     line-height: 28px;
     color: #515E83;
-    }
+}
 
 
 .solving span {
@@ -156,6 +159,8 @@ margin-left: 500px;
     font-size: 40px;
     line-height: 47px;
     color: #57ADBF;
+    /* added */
+    padding-left: 150px;
 }
 
 
@@ -164,6 +169,8 @@ margin-left: 500px;
     font-size: 16px;
     line-height: 60%;
     color: #49909F;
+     /* added */
+    padding-left: 150px;
 }
 
 .blue-div {
@@ -176,10 +183,11 @@ margin-left: 500px;
     background: #49909F;
 }
 
+
 .blue-details1 {
     position: absolute;
     top: 1200px;
-    left: 32px;
+    left: 338px;
 }
 
 .blue-details p {
@@ -192,14 +200,14 @@ margin-left: 500px;
 .blue-details2 {
     position: absolute;
     top: 1200px;
-    left: 482px;
+    left: 790px;
 }
 
 
 .blue-details3 {
     position: absolute;
     top: 1200px;
-    left: 932px;
+    right: 350px;
 }
 
 .first-p {
@@ -231,19 +239,19 @@ margin-left: 500px;
 .blue-details4 {
     position: absolute;
     top: 1800px;
-    left: 32px;
+    left: 338px;
 }
 
 .blue-details5 {
     position: absolute;
     top: 1800px;
-    left: 482px;
+    left: 790px;
 }
 
 .blue-details6 {
     position: absolute;
     top: 1800px;
-    left: 932px;
+    right: 350px;
 }
 
 
@@ -261,11 +269,13 @@ margin-left: 500px;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    margin-left: 335px;
+    margin-left: 400px;
     color: #090914;
 }
 
 .client-body {
+    width: 1280px;
+    height: 495px;
     margin-left: 23px;
     margin-right: 23px;
     background: #DDEFF2;
@@ -285,6 +295,7 @@ margin-left: 500px;
     font-size: 40px;
     line-height: 47px;
     color: #292A2C;
+    margin-left: 200px;
 }
 
 
@@ -293,6 +304,7 @@ margin-left: 500px;
     font-size: 16px;
     line-height: 150%;
     color: #292A2C;
+    margin-left: 100px;
 }
 
 
@@ -449,6 +461,7 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 200px;
 
 }
 
@@ -466,3 +479,4 @@ textarea {
     margin-top: 8px;
 
 }
+

@@ -1,0 +1,145 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="{% static 'blog_images/webBuildr.png' %}">
+    <link rel="stylesheet" href="{% static 'css/inyang.css' %}">
+    <title>Restaurant</title>
+</head>
+<body>
+    <header>
+        <div class="nav-top"></div>
+        <nav class="f-spacebtw">
+            <div class="f-spacebtw gap-6">
+                <h2 onclick="Back()"> ONI'S PLACE</h2>
+                <ul>
+                    <li> <a href="#">order</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">menu</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <div class="cart"><img src="{% static 'restaurant_image/shopping-cart.png' %}" alt="shop icon"></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first-section f-spacebtw">
+            <div class="left-food"> <img src="{% static 'restaurant_image/food.svg' %}" alt="food"> </div>
+            <div class="right-food">
+                <div>
+                    <p>Are you looking for a <br> place to eat? </p>
+                    <p>We got you!</p>
+                </div>
+                <div class="right-bottom">
+                    <img src="{% static 'restaurant_image/food.svg' %}" alt="food">
+                    <p>Oni’s resturant is <br> based in Lagos <br> Nigeria.</p>
+                </div>
+            </div>
+        </section>
+        <section class="second-section">
+            <div>
+                <h3>The resturant</h3>
+                <p>Choose from our list <br> of pepper soups <br>menu for pickup or<br> delivery</p>
+                <button><a href="#">Order Now</a></button>
+            </div>
+            <div> 
+                <img src="{% static 'restaurant_image/chicken-soup.png' %}" alt="chicken-pepper-soup"> 
+                <p class="img-cc">Chicken pepper soup</p>
+            </div>
+            <div> 
+                <img src="{% static 'restaurant_image/catfish-soup.png' %}" alt="catfish-pepper-soup"> 
+                <p class="img-cc">Catfish pepper soup</p>
+            </div>
+        </section>
+        <section class="third-section">
+            <img src="{% static 'restaurant_image/foodsec.svg' %}" alt="" srcset="">
+        </section>
+
+        <section class="fourth-section">
+            <div>
+                <h2>We use the very best ingredients gotten <br> directly from the farm</h2>
+            </div>
+
+            <div class="fourth-upper">
+                <div>
+                    <h3>Behind the kitchen</h3>
+                    <p>Wondering how to make this <br> delioious foods? check out our <br> blog for the receipe used and <br> the process.</p>
+                    <button> <a href="">Read more</a> </button>
+                </div>
+                <div>
+                    <img src="{% static 'restaurant_image/food.svg' %}" alt="food">
+                </div>
+                <div>
+                    <table style="width:100%">
+                        <tr>
+                          <td>12/09/22</td>
+                          <td>Sea salt and its uses</td>
+                        </tr>
+                        <tr>
+                          <td>15/09/22</td>
+                          <td>Pepper soup</td>
+                        </tr>
+                        <tr>
+                          <td>15/09/22</td>
+                          <td>Stop using bad oil</td>
+                        </tr>
+                        <tr>
+                          <td>19/09/22</td>
+                          <td>Wash your hands</td>
+                        </tr>
+                        <tr>
+                          <td>24/09/22</td>
+                          <td>Cooking the right way</td>
+                        </tr>
+                      </table>
+                </div>
+            </div>
+            <div class="fourth-lower">
+                <div><img src="{% static 'restaurant_image/food.svg' %}" alt="food"> </div>
+                <div><img src="{% static 'restaurant_image/chicken-soup.png' %}" alt="chicken-pepper-soup"> </div>
+                <div><img src="{% static 'restaurant_image/catfish-soup.png' %}" alt="catfish-pepper-soup"> </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="f-spacebtw">
+        <div>
+            <p class="footer-header">Oni’s Place</p>
+            <p class="footer-left-body">12, Garts road, off Lekki <br> express way, Lagos Nigeria.</p>
+            <p class="made-with footer-left-body">Made with <span>webBuildr</span></p>
+        </div>
+        <div>
+            <ul>
+                <li>Order</li>
+                <li>Menus</li>
+                <li>Blog</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <div class="socials">
+                <img src="{% static 'restaurant_image/facebook.png' %}" alt="facebook">
+                <img src="{% static 'restaurant_image/messenger.png' %}" alt="messanger">
+                <img src="{% static 'restaurant_image/whatsapp.png' %}" alt="whatsapp">
+            </div>
+        </div>
+        <div>
+            <p>Sign up with your email address to get <br> news and updates</p>
+            <form>
+                <input type="email" name="email" placeholder="Email address">
+                <input type="submit" value="Sign Up">
+            </form>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        function Back() {
+          history.go(-1);
+        }
+    </script>
+</body>
+</html>

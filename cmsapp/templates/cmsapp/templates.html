@@ -20,9 +20,9 @@
                 <a href="#">Template</a>
                 <a href="#">Resource</a>
             </div>
-            <div class="mobile__menu">
+            <!-- <div class="mobile__menu">
                 <i class="bi bi-list"></i>
-            </div>
+            </div> -->
         </div>
     </header>
     <hr class="hr-1">
@@ -109,69 +109,170 @@
             <div class="container">
                 <h2>All Templates</h2>
                 <div class="template__grid">
+
                     <div class="template__item">
-                        <img src="{% static 'templates_folder/images/templates/inyang.png' %}" alt="">
+                        <img src="{% static 'templates_folder/images/templates/jayn.png' %}" alt="">
+                        <!-- added something -->
+                        <div class="image__overlay"> 
+                            <div class="image__description">
+                                <a class="tea" href="{% url 'cmsapp:jayn_page' %}">Preview Jayn</a>
+                            </div>
+                            <p class="image__description">
+                                <a class="tea" href="#">Edit Jayn</a>
+                            </p>
+                        </div>
+                        <!-- end -->
                         <div class="templates__item-text">
-                            <h3>Inyang</h3>
+                            <h3>Jayn</h3>
                             <i class="bi bi-heart"></i>
                         </div>
-                    </div>
-                    <div class="template__item">
-                        <img src="{% static 'templates_folder/images/templates/pams.png' %}" alt="">
-                        <div class="templates__item-text">
-                            <h3>Pams</h3>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
-                    <div class="template__item">
-                        <img src="{% static 'templates_folder/images/templates/chad.png' %}" alt="">
-                        <div class="templates__item-text">
-                            <h3>Chad</h3>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
-                    <div class="template__item">
-                        <img src="{% static 'templates_folder/images/templates/glams.png' %}" alt="">
-                        <div class="templates__item-text">
-                            <h3>Glams</h3>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
-                    <div class="template__item">
-                        <img src="{% static 'templates_folder/images/templates/olive.png' %}" alt="">
-                        <div class="templates__item-text">
-                            <h3>Olive</h3>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
-                    <div class="template__item">
-                        <img src="{% static 'templates_folder/images/templates/seren.png' %}" alt="">
-                        <div class="templates__item-text">
-                            <h3>Seren</h3>
-                            <i class="bi bi-heart"></i>
-                        </div>
-                    </div>
-                    <div class="template__item">
+                      </div>
+
+                      <div class="template__item">
                         <img src="{% static 'templates_folder/images/templates/clady.png' %}" alt="">
+                        <!-- added something -->
+                        <div class="image__overlay"> 
+                            <div class="image__description">
+                                <a class="tea" href="{% url 'cmsapp:clady_page' %}">Preview Clady</a>
+                            </div>
+                            <p class="image__description">
+                                <a class="tea" href="#">Edit Clady</a>
+                            </p>
+                        </div>
+                        <!-- end -->
                         <div class="templates__item-text">
                             <h3>Clady</h3>
                             <i class="bi bi-heart"></i>
                         </div>
                     </div>
+
                     <div class="template__item">
-                        <img src="{% static 'templates_folder/images/templates/jayn.png' %}" alt="">
+                        <img src="{% static 'templates_folder/images/templates/inyang.png' %}" alt="">
+                        <!-- added something -->
+                        <div class="image__overlay"> 
+                            <div class="image__description">
+                                <a class="tea" href="{% url 'cmsapp:inyang_page' %}">Preview Inyang</a>
+                            </div>
+                            <p class="image__description">
+                                <a class="tea" href="#">Edit Inyang</a>
+                            </p>
+                        </div>
+                        <!-- end -->
                         <div class="templates__item-text">
-                            <h3>Jayn</h3>
+                            <h3>Inyang</h3>
                             <i class="bi bi-heart"></i>
                         </div>
                     </div>
+
+                    <div class="template__item">
+                        <img src="{% static 'templates_folder/images/templates/glams.png' %}" alt="">
+                        <!-- added something -->
+                        <div class="image__overlay"> 
+                            <div class="image__description">
+                                <a class="tea" href="#">Preview Glams</a>
+                            </div>
+                            <p class="image__description">
+                                <a class="tea" href="#">Edit Glams</a>
+                            </p>
+                        </div>
+                        <!-- end -->
+                        <div class="templates__item-text">
+                            <h3>Glams</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="template__item">
+                        <img src="{% static 'templates_folder/images/templates/olive.png' %}" alt="">
+                        <!-- added something -->
+                        <div class="image__overlay"> 
+                            <div class="image__description">
+                                <a class="tea" href="#">Preview Olive</a>
+                            </div>
+                            <p class="image__description">
+                                <a class="tea" href="#">Edit Olive</a>
+                            </p>
+                        </div>
+                        <!-- end -->
+                        <div class="templates__item-text">
+                            <h3>Olive</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="template__item">
+                        <img src="{% static 'templates_folder/images/templates/seren.png' %}" alt="">
+                        <!-- added something -->
+                        <div class="image__overlay"> 
+                            <div class="image__description">
+                                <a class="tea" href="#">Preview Seren</a>
+                            </div>
+                            <p class="image__description">
+                                <a class="tea" href="#">Edit Seren</a>
+                            </p>
+                        </div>
+                        <!-- end -->
+                        <div class="templates__item-text">
+                            <h3>Seren</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="template__item">
+                        <img src="{% static 'templates_folder/images/templates/pams.png' %}" alt="">
+                        <!-- added something -->
+                        <div class="image__overlay"> 
+                            <div class="image__description">
+                                <a class="tea" href="#">Preview Pams</a>
+                            </div>
+                            <p class="image__description">
+                                <a class="tea" href="#">Edit Pams</a>
+                            </p>
+                        </div>
+                        <!-- end -->
+                        <div class="templates__item-text">
+                            <h3>Pams</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="template__item">
+                        <img src="{% static 'templates_folder/images/templates/chad.png' %}" alt="">
+                        <!-- added something -->
+                        <div class="image__overlay"> 
+                            <div class="image__description">
+                                <a class="tea" href="#">Preview Chad</a>
+                            </div>
+                            <p class="image__description">
+                                <a class="tea" href="#">Edit Chad</a>
+                            </p>
+                        </div>
+                        <!-- end -->
+                        <div class="templates__item-text">
+                            <h3>Chad</h3>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                      </div>
+                      
+
                     <div class="template__item">
                         <img src="{% static 'templates_folder/images/templates/pedro.png' %}" alt="">
+                        <!-- added something -->
+                        <div class="image__overlay"> 
+                            <div class="image__description">
+                                <a class="tea" href="#">Preview Pedro</a>
+                            </div>
+                            <p class="image__description">
+                                <a class="tea" href="#">Edit Pedro</a>
+                            </p>
+                        </div>
+                        <!-- end -->
                         <div class="templates__item-text">
                             <h3>Pedro</h3>
                             <i class="bi bi-heart"></i>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
