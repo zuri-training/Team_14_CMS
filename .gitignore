@@ -108,6 +108,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+env_t14
 
 # Spyder project settings
 .spyderproject
