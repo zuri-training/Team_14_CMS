@@ -50,7 +50,7 @@
 
             <ul>
                 <li>Product</li>
-                <li>Resource</li>
+                <li onclick="Resource()">Resource</li>
                 <li onclick="getStarted()">Templates</li>
                 <li>Hire an expert</li>
             </ul>
@@ -377,5 +377,14 @@
     AOS.init();
     function getStarted() {
         window.location.replace("{% url 'cmsapp:templates_page' %}")
+    }
+</script>
+</body>
+</html>
+
+<script>
+AOS.init();
+    function Resource() {
+        window.location.replace("{% url 'cmsapp:resource_page' %}")
     }
 </script>

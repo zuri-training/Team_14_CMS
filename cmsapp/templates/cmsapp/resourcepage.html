@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/webBuildr.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="{% static 'featurespage/features.css' %}">
+    <link rel="stylesheet" href="{% static 'resourcepage/resource.css' %}">
     <title>Features</title>
     <link rel="stylesheet" href="features.css">
 </head>
@@ -16,20 +16,24 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">
+            <div class="logo" onclick='Homepage()'>
                 <img src="{% static 'images/nav/logo.svg' %}"alt="WebBuildr" />
             </div>
 
             <ul>
                 <li>Product<span><img src="{% static 'images/nav/downArrow.svg' %}" alt="" /></span></li>
                 <li>Resource<span><img src="{% static 'images/nav/downArrow.svg' %}" alt="" /></span></li>
-                <li>Templates</li>
+                <li onclick="getStarted()">Templates</li>
                 <li>Hire an expert</li>
             </ul>
 
             <div class="nav-btns">
-                <button> <a href="#">LOG IN</a></button>
-                <button> <a href="#">GET STARTED</a></button>
+                {% if user.is_authenticated %}
+                <button> <a href="{% url 'accounts:logout' %}">LOG OUT</a></button>
+                {% else %}
+                <button> <a href="{% url 'accounts:login' %}">LOG IN</a></button>
+                {% endif %}
+                <button> <a href="{% url 'cmsapp:templates_page' %}">GET STARTED</a></button>
             </div>
         </nav>
     </header>
@@ -55,7 +59,7 @@
             <!-- Right section -->
             <div class="hero-right">
                 <div class="img-container">
-                    <img src="{% static 'featurespage/assets/Character.svg' %}" alt="">
+                    <img src="{% static 'resourcepage/assets/Character.svg' %}" alt="">
                 </div>
             </div>
 
@@ -107,7 +111,7 @@
                 </ul>
             </div>
             <div class="hire-right">
-                <img src="{% static 'featurespage/assets/Frame.svg' %}" alt="">
+                <img src="{% static 'resourcepage/assets/Frame.svg' %}" alt="">
             </div>
         </section>
         <aside class="hire-btn">
@@ -132,9 +136,9 @@
             <h2>Contact Us</h2>
             <p>Feel free to contact us on all our social media platforms. It promises to be <br> engaging with many resources that will help you navigate through,get <br> mentors and connect with people with like minds.</p>
             <div class="contact">
-                <p><span> <img src="{% static 'featurespage/assets/call.png' %}" alt="Telephone"> </span>+234 815 3648 465</p>
-                <p><span> <img src="{% static 'featurespage/assets/instagram.png' %}" alt="Instagram"> </span>WebBuildr</p>
-                <p><span> <img src="{% static 'featurespage/assets/facebook.png' %}" alt="Facebook"> </span>WebBuildr</p>
+                <p><span> <img src="{% static 'resourcepage/assets/call.png' %}" alt="Telephone"> </span>+234 815 3648 465</p>
+                <p><span> <img src="{% static 'resourcepage/assets/instagram.png' %}" alt="Instagram"> </span>WebBuildr</p>
+                <p><span> <img src="{% static 'resourcepage/assets/facebook.png' %}" alt="Facebook"> </span>WebBuildr</p>
             </div>
         </section>
     </main>
@@ -184,3 +188,17 @@
 </body>
 
 </html>
+<script type="text/javascript">
+    function Homepage() {
+        window.location.replace('{% url "cmsapp:landingpage" %}')
+    }
+</script>
+</body>
+</html>
+
+<script>
+    AOS.init();
+    function getStarted() {
+        window.location.replace("{% url 'cmsapp:templates_page' %}")
+    }
+</script>
