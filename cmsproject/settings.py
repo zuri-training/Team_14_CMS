@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'cmsproject',
     'cmsapp.apps.CmsappConfig',
     'accounts',
+    'websites.apps.WebsitesConfig',
     
     # Third Party Plugins
     # 'social_django',
