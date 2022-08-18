@@ -11,13 +11,9 @@ import json
 def list_all_websites(request):
 	""" Function to list all websites """
 	form = Website.objects.filter(author=request.user)
-	baltimore = {}
 	context = {
 		'form':form,
-		'baltimore':baltimore,
 	}
-	for i in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']:
-		baltimore[f'template__{i}'] = f"template__{i}"
 	return render(request, 'website/list.html', context)
 
 def savepage(request):
