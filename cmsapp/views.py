@@ -27,6 +27,12 @@ class CreateTemplate(CreateView):
 
 def templates_page(request):
     """ Function to render the templates page """
+    baltimore = {}
+    context = {
+        'baltimore':baltimore,
+    }
+    for i in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']:
+        baltimore[f'template__{i}'] = f"template__{i}"
     return render(request, 'cmsapp/templates.html')
 
 def jayn_page(request):
