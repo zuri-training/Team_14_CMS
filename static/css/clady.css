@@ -1,0 +1,1547 @@
+/* header section */
+
+/* NAV STYLES */
+.back {
+    width: 186px;
+    height: 44px;
+    top: 30px;
+    border-radius: 8px;
+    position: absolute;
+    margin-left: 55px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 15px;
+
+ }
+
+.destop img{
+    position: absolute;
+    margin-left: -8px;
+    margin-top: -10px;
+}
+
+.tablet img{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -18px;
+}
+
+.phone img{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -12px;
+}
+
+.nav-btns button:first-of-type a {
+   font-size:16px;
+  color: #242653;
+  font-weight: 700;
+ }
+
+ .nav-btns button:last-of-type {
+  width: 186px;
+  height: 20px;
+  left: 1153px;
+  top: 48px;
+  background-color: #242652;
+  border-radius: 8px;
+  position: absolute;
+  margin-left: -120px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 15px;
+}
+.nav-btns button:last-of-type a {
+  width: 126px;
+  height: 18px;
+  font-weight: 600px;
+  font-size: 12px;
+  font-family: 'campton';
+  font-style: normal;
+  line-height: 150%;
+  color: #e4e8f3;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.navbar p {
+    /* Back */
+  width: 39px;
+  height: 24px;
+
+  /* Body text (large) semibold*/
+  font-family: 'campton';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  color: #000000;
+}
+
+
+a {
+    text-decoration: none;
+  }
+
+  section {
+    width: 850px;
+    height: 3190px;
+    left: 10px;
+    top: 0px; 
+    margin-left: 80px;
+    background: #FFFFFF;
+    box-shadow: #FFFFFF;
+  }
+  
+.rectangle1 {
+    width: 1100px;
+    height: 16px;
+    left: -7px;
+    top: 190px; 
+    background: #1d1f42;
+    margin-top: -3100px;
+}
+
+.logo {
+    width: 850px;
+    height: 404px;
+    left: -7px;
+    top: 190px; 
+    margin-left: 20.5px;
+    margin-top: 17px;
+}
+
+.rectangle2 {
+    width: 1100px;
+    height: 3154px;
+    left: 2px;
+    top: 190px; 
+    margin-top: 150px;
+    border-style: solid;
+    border-color: #1d1f42;
+    border-width: 2px;
+    
+}
+
+.rectangle3 {
+    width: 1055px;
+    height: 3054px;
+    left: -7px;
+    top: 183px; 
+    background: #e4e8f3;
+    margin-left: 20px;
+    margin-top: 70px;
+    border-style: solid;
+    border-color: #e4e8f3;
+    border-width: 2px;
+}
+  
+/* safe blog section */
+.share h3{
+    /*Safe blog*/
+    height: 58px;
+    width: 601px;
+    top: 149px;
+    font-style: normal;
+    font-family: 'Campton';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58px;
+    margin-left: 275px;
+    margin-top: -250px;
+    color: #282f42;
+}
+    
+.picture h4{
+    /*introduction*/
+    position: absolute;
+    height: 37px;
+    width: 186px;
+    left: 306px;
+    top: 210px;
+    margin-left: 250px;
+    margin-top: 215px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37px;
+    color: #282f42;
+}
+
+.lastest {
+    position: absolute;
+    width: 182px;
+    height: 39px;
+    left: 31px;
+    top: 684px; 
+    background: #292a2c;
+    border-radius: 10px;
+    margin-left: 524px;
+    margin-top: -210px;
+    border-radius: 8px;
+    border-color: #292a2c;
+}
+
+.lastest p {
+    /*introduction*/
+    position: absolute;
+    height: 21px;
+    width: 112px;
+    left: 58px;
+    top: 696px;
+    margin-left: -28px;
+    margin-top: -687px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #e4e8f3;
+}
+
+.lastest a {
+    color: #e4e8f3;
+}
+
+.rectangle4 {
+    width: 1055px;
+    height: 128px;
+    left: -7px;
+    top: 183px; 
+    background: #dee0e6;
+    margin-left: 20px;
+    margin-top: 230px;
+    border-style: solid;
+    border-color: #dee0e6;
+    border-width: 2px;
+}
+
+.row {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col p {
+    width: auto;
+    height: 24px;
+    top: 490px;
+    left: 95px;
+    margin-top: -135px;
+    margin-left: 45px;
+    margin-inline-end: 80px;
+    color: #454649;
+
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150px;
+}
+
+a{
+    display: inline-block;
+    background: var(--blue);
+    color: #454649;
+  }
+
+/* Begining of featured post*/
+.featured p {
+    /*introduction*/
+    position: absolute;
+    height: 28px;
+    width: 175px;
+    left: 316px;
+    top: 586px;
+    margin-left: 250px;
+    margin-top: 220px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #292a2c;
+}
+
+.featured hr {
+    position: absolute;
+    width: 155px;
+    height: 0px;
+    left: 309px;
+    top: 621.0px;
+    border: 0.1px solid #292a2c;
+    margin-left: 250px;
+    margin-top: 217px;
+    transform: rotate(-0.01deg);
+
+}
+
+/* food cravings */
+.food img{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 19px;
+    top: 670px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin-left: 170px;
+    margin-top: 217px;
+}
+
+.rec_food {
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 31px;
+    top: 684px; 
+    background: #d9d9d9;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 220px;
+    border-color: #d9d9d9;
+}
+
+.rec_food p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 47px;
+    left: 58px;
+    top: 696px;
+    margin-left: -28px;
+    margin-top: -679px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #67696d;
+}
+
+.cravings p{
+     /*introduction*/
+     position: absolute;
+     height: 33px;
+     width: 152px;
+     left: 28px;
+     top: 855px;
+     margin-left: 170px;
+     margin-top: 229px;
+     
+     /*styleName: Body text (large) Semibold */
+     font-family: 'Campton';
+     font-style: normal;
+     font-size: 28px;
+     font-weight: 700;
+     line-height: 33px;
+     color: #292a2c;
+}
+
+.calories p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 144px;
+    left: 32px;
+    top: 883px;
+    margin-left: 170px;
+    margin-top: 229px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.anna img{
+    position: absolute;
+    width: 59px;
+    height: 55px;
+    left: 29px;
+    top: 969px;
+    border-radius: 20px;
+    margin-left: 170px;
+    margin-top: 255px;
+}
+
+.anna h4{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 103px;
+    left: 92px;
+    top: 1001px;
+    margin-left: 170px;
+    margin-top: 255px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.anna p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 98px;
+    left: 269px;
+    top: 1000px;
+    margin-left: 170px;
+    margin-top: 255px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+/* end of food cravings */
+
+/* travel */
+.travel img{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 401px;
+    top: 670px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin-left: 299px;
+    margin-top: 217px;
+}
+
+.rec_travel {
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 419px;
+    top: 684px; 
+    background: #d9d9d9;
+    border-radius: 10px;
+    margin-left: 299px;
+    margin-top: 220px;
+    border-color: #d9d9d9;
+}
+
+.rec_travel p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 64px;
+    left: 430px;
+    top: 696px;
+    margin-left: -410px;
+    margin-top: -679px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #67696d;
+}
+
+.scenery p{
+     /*introduction*/
+     position: absolute;
+     height: 33px;
+     width: 152px;
+     left: 417px;
+     top: 855px;
+     margin-left: 299px;
+     margin-top: 229px;
+     
+     /*styleName: Body text (large) Semibold */
+     font-family: 'Campton';
+     font-style: normal;
+     font-size: 28px;
+     font-weight: 700;
+     line-height: 33px;
+     color: #292a2c;
+}
+
+.color p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 144px;
+    left: 418px;
+    top: 883px;
+    margin-left: 299px;
+    margin-top: 229px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.ben img{
+    position: absolute;
+    width: 59px;
+    height: 55px;
+    left: 414px;
+    top: 969px;
+    border-radius: 20px;
+    margin-left: 299px;
+    margin-top: 255px;
+}
+
+.ben h4{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 103px;
+    left: 486px;
+    top: 1001px;
+    margin-left: 299px;
+    margin-top: 255px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.ben p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 98px;
+    left: 653px;
+    top: 1000px;
+    margin-left: 320px;
+    margin-top: 255px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+/* end of travel */
+/* end of featured post */
+
+/* Begining of most recent post*/
+.recent p {
+    /*introduction*/
+    position: absolute;
+    height: 28px;
+    width: 146px;
+    left: 316px;
+    top: 1150px;
+    margin-left: 275px;
+    margin-top: 220px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #292a2c;
+}
+
+.recent hr {
+    position: absolute;
+    width: 130px;
+    height: 0px;
+    left: 309px;
+    top: 1185.0px;
+    border: 0.1px solid #292a2c;
+    margin-left: 275px;
+    margin-top: 217px;
+    transform: rotate(-0.01deg);
+
+}
+
+/*section 1*/
+
+.rec_fas {
+    position: absolute;
+    width: 400px;
+    height: 466px;
+    left: 17px;
+    top: 1234px; 
+    background: #bcc6e2;
+    margin-left: 170px;
+    margin-top: 217px;
+    border-color: #dee0e6;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.fashion img{
+    position: absolute;
+    width: 400px;
+    height: 267;
+    left: 17px;
+    top: 1234px;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 170px;
+    margin-top: 217px;
+}
+
+.rec_fashion {
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 31px;
+    top: 1250px; 
+    background: #acaeb6;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 220px;
+    border-color: #d9d9d9;
+}
+
+.rec_fashion p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 72px;
+    left: 51px;
+    top: 696px;
+    margin-left: -33px;
+    margin-top: -679px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #292a2c;
+}
+
+.wedding p {
+     /*introduction*/
+     position: absolute;
+     height: 24px;
+     width: 296px;
+     left: 30px;
+     top: 1485px;
+     margin-left: 170px;
+     margin-top: 229px;
+     
+     /*styleName: Body text (large) Semibold */
+     font-family: 'Campton';
+     font-style: normal;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 150%;
+     color: #292a2c;
+}
+
+.trends p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 226px;
+    left: 30px;
+    top: 1510px;
+    margin-left: 170px;
+    margin-top: 229px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.pam img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 27px;
+    top: 1593px;
+    border-radius: 20px;
+    margin-left: 170px;
+    margin-top: 265px;
+}
+
+.pam h4{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 116px;
+    left: 84px;
+    top: 1615px;
+    margin-left: 170px;
+    margin-top: 265px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.pam p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 98px;
+    left: 269px;
+    top: 1614px;
+    margin-left: 170px;
+    margin-top: 265px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+/* end of fashion */
+
+/* lovers */
+
+.rec_lov {
+    position: absolute;
+    width: 400px;
+    height: 466px;
+    left: 403px;
+    top: 1191px; 
+    background: #bcc6e2;
+    margin-left: 299px;
+    margin-top: 260px;
+    border-color: #dee0e6;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.lovers img {
+    position: absolute;
+    width: 400px;
+    height: 254px;
+    left: 403px;
+    top: 1234px;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 299px;
+    margin-top: 217px;
+}
+
+.rec_lovers {
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 427px;
+    top: 1250px; 
+    background: #acaeb6;
+    border-radius: 10px;
+    margin-left: 299px;
+    margin-top: 220px;
+    border-color: #d9d9d9;
+}
+
+.rec_lovers p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 72px;
+    left: 63px;
+    top: 696px;
+    margin-left: -33px;
+    margin-top: -679px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #292a2c;
+}
+
+.forlover p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 296px;
+    left: 420px;
+    top: 1475px;
+    margin-left: 299px;
+    margin-top: 235px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.bright p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 311px;
+    left: 421px;
+    top: 1500px;
+    margin-left: 299px;
+    margin-top: 235px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.pam1 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 427px;
+    top: 1593px;
+    border-radius: 20px;
+    margin-left: 299px;
+    margin-top: 265px;
+} 
+
+
+.pam1 h4{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 116px;
+    left: 481px;
+    top: 1615px;
+    margin-left: 299px;
+    margin-top: 265px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.pam1 p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 98px;
+    left: 667px;
+    top: 1614px;
+    margin-left: 320px;
+    margin-top: 265px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+/*end section 1*/
+
+/*section 2*/
+
+.rec_wor {
+    position: absolute;
+    width: 400px;
+    height: 466px;
+    left: 17px;
+    top: 1741px; 
+    background: #bcc6e2;
+    margin-left: 170px;
+    margin-top: 217px;
+    border-color: #dee0e6;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.world img{
+    position: absolute;
+    width: 400px;
+    height: 244.41px;
+    left: 17px;
+    top: 1741px;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 170px;
+    margin-top: 217px;
+}
+
+.rec_world {
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 33px;
+    top: 1756px; 
+    background: #acaeb6;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 220px;
+    border-color: #d9d9d9;
+}
+
+.rec_world p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 64px;
+    left: 33px;
+    top: 1756px;
+    margin-left: -12px;
+    margin-top: -1746.6px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.tworld p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 296px;
+    left: 36px;
+    top: 2011px;
+    margin-left: 170px;
+    margin-top: 200px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.wander p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 257px;
+    left: 36px;
+    top: 2039px;
+    margin-left: 170px;
+    margin-top: 200px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.pam2 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 27px;
+    top: 2145px;
+    border-radius: 20px;
+    margin-left: 170px;
+    margin-top: 215px;
+} 
+
+
+.pam2 h4{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 116px;
+    left: 86px;
+    top: 2165px;
+    margin-left: 170px;
+    margin-top: 215px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.pam2 p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 98px;
+    left: 268px;
+    top: 2164px;
+    margin-left: 170px;
+    margin-top: 215px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+
+.rec_photo {
+    position: absolute;
+    width: 400px;
+    height: 466px;
+    left: 403px;
+    top: 1741px; 
+    background: #bcc6e2;
+    margin-left: 299px;
+    margin-top: 217px;
+    border-color: #dee0e6;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.photo img{
+    position: absolute;
+    width: 400px;
+    height: 244.41px;
+    left: 403px;
+    top: 1741px;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 299px;
+    margin-top: 217px;
+}
+
+.rec_photography {
+    position: absolute;
+    width: 147px;
+    height: 45px;
+    left: 430px;
+    top: 1756px; 
+    background: #acaeb6;
+    border-radius: 10px;
+    margin-left: 289px;
+    margin-top: 220px;
+    border-color: #d9d9d9;
+}
+
+.rec_photography p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 127px;
+    left: 33px;
+    top: 1756px;
+    margin-left: -24px;
+    margin-top: -1746.6px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.photography p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 296px;
+    left: 418px;
+    top: 2011px;
+    margin-left: 299px;
+    margin-top: 200px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.shoot p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 257px;
+    left: 418px;
+    top: 2039px;
+    margin-left: 299px;
+    margin-top: 200px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.pam4 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 418px;
+    top: 2145px;
+    border-radius: 20px;
+    margin-left: 299px;
+    margin-top: 215px;
+} 
+
+
+.pam4 h4{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 116px;
+    left: 480px;
+    top: 2165px;
+    margin-left: 299px;
+    margin-top: 215px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.pam4 p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 98px;
+    left: 659px;
+    top: 2164px;
+    margin-left: 320px;
+    margin-top: 215px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+/* begining of section 3*/
+
+.rec_vis {
+    position: absolute;
+    width: 400px;
+    height: 466px;
+    left: 17px;
+    top: 2271px; 
+    background: #bcc6e2;
+    margin-left: 170px;
+    margin-top: 190px;
+    border-color: #dee0e6;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.visat img{
+    position: absolute;
+    width: 400px;
+    height: 244.41px;
+    left: 17px;
+    top: 2271px;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 170px;
+    margin-top: 190px;
+}
+
+.rec_visat {
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 33px;
+    top: 2295px; 
+    background: #acaeb6;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 190px;
+    border-color: #d9d9d9;
+}
+
+.rec_visat p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 47px;
+    left: 57px;
+    top: 2306px;
+    margin-left: -30px;
+    margin-top: -2295px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.ffo p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 296px;
+    left: 31px;
+    top: 2551px;
+    margin-left: 170px;
+    margin-top: 165px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.lavista p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 112px;
+    left: 29px;
+    top: 2572px;
+    margin-left: 170px;
+    margin-top: 175px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.pam3 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 27px;
+    top: 2685px;
+    border-radius: 20px;
+    margin-left: 170px;
+    margin-top: 180px;
+} 
+
+
+.pam3 h4{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 116px;
+    left: 92px;
+    top: 2685px;
+    margin-left: 170px;
+    margin-top: 200px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.pam3 p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 98px;
+    left: 268px;
+    top: 2685px;
+    margin-left: 170px;
+    margin-top: 200px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.rec_make {
+    position: absolute;
+    width: 400px;
+    height: 466px;
+    left: 405px;
+    top: 2271px; 
+    background: #bcc6e2;
+    margin-left: 299px;
+    margin-top: 190px;
+    border-color: #dee0e6;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.make img{
+    position: absolute;
+    width: 400px;
+    height: 244.41px;
+    left: 405px;
+    top: 2271px;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 299px;
+    margin-top: 190px;
+}
+
+.rec_makeup {
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 418px;
+    top: 2295px; 
+    background: #acaeb6;
+    border-radius: 10px;
+    margin-left: 299px;
+    margin-top: 190px;
+    border-color: #d9d9d9;
+}
+
+.rec_makeup p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 296px;
+    left: 418px;
+    top: 2306px;
+    margin-left: -400px;
+    margin-top: -2295px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.makeup p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 296px;
+    left: 418px;
+    top: 2551px;
+    margin-left: 299px;
+    margin-top: 165px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.blush p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 112px;
+    left: 418px;
+    top: 2572px;
+    margin-left: 299px;
+    margin-top: 175px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.pam5 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 418px;
+    top: 2685px;
+    border-radius: 20px;
+    margin-left: 299px;
+    margin-top: 180px;
+} 
+
+
+.pam5 h4{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 116px;
+    left: 481px;
+    top: 2685px;
+    margin-left: 299px;
+    margin-top: 200px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.pam5 p{
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 98px;
+    left: 668px;
+    top: 2685px;
+    margin-left: 320px;
+    margin-top: 200px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+/*stay*/
+.stay p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 296px;
+    left: 316px;
+    top: 2800px;
+    margin-left: 276px;
+    margin-top: 220px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #292a2c;
+}
+
+.stay hr {
+    position: absolute;
+    width: 96px;
+    height: 0px;
+    left: 316px;
+    top: 2830px;
+    margin-left: 276px;
+    margin-top: 217px;
+    color: #000000;
+
+}
+
+.email p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 174px;
+    left: 316px;
+    top: 2800px;
+    margin-left: 250px;
+    margin-top: 250px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
+
+.made p {
+    /*introduction*/
+    position: absolute;
+    height: 24px;
+    width: 162px;
+    left: 316px;
+    top: 3000px;
+    margin-left: 255px;
+    margin-top: 230px;
+    
+    /*styleName: Body text (large) Semibold */
+    font-family: 'Campton';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #292a2c;
+}
