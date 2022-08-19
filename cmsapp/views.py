@@ -62,3 +62,7 @@ def resource_page(request):
 def display_error(request):
     """ Function for displaying the error page """
     return render(request, 'cmsapp/404.html')
+
+def feature_page(request):
+    """ Function for displaying the feature page """
+    return render(request, 'cmsapp/features.html')

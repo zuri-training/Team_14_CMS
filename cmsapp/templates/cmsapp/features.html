@@ -1,0 +1,122 @@
+{% extends 'cmsapp/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/webBuildr.png">
+    <title>{% block title %}| Features {% endblock title %}</title>
+    {% block style %}
+    <link rel="stylesheet" href="{% static 'css/features.css' %}">
+    {% endblock style %}
+</head>
+{% block content %}
+    <main>
+        <section class="hero-section">
+            <!-- Left section -->
+            <div class="hero-left">
+                <div class="hero-left-content">
+                    <p>Our <span>unique</span> features to <br /> help pave a <span>path</span> to the <br />
+                        <span>future.</span></p>
+
+                    <ul>
+                        <li>Choose your most preferred template and explore</li>
+                        <li>Get help when need be</li>
+                        <li>Watch tutorial videos for more clarity</li>
+                        <li>Share your story</li>
+                        <li>Hire an expert</li>
+                    </ul>
+                    <button><a href="#"></a>GET STARTED</a></button>
+                </div>
+            </div>
+            <!-- Right section -->
+            <div class="hero-right">
+                <div class="img-container">
+                    <img src="{% static 'images/features/Character.svg' %}" alt="see more">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- -------------------------------------------------------------------------- -->
+
+        <section class="features">
+            <div class="sub-features first">
+                <div class="">
+                    <h3>Create a website without stress</h3>
+                    <p>With the use of a large variety of template, you <br> will surely find one that suits your need.</p>
+                    <hr class="left dif">
+                </div>
+                
+                <div class="">
+                    <h3>Access to tutorial videos</h3>
+                    <p>You are granted full access to  tutorial videos to <br> help you navigate through and for ease website <br> creation.</p>
+                    <hr class="right">
+                </div> 
+                
+            </div> 
+            <div class="sub-features second">
+                <div class="right-border">
+                    <h3>Free online events</h3>
+                    <p>You are exposed to learning basics to improve <br> your workflow using WebBuildr. It’s a one-hour <br>
+                        session that enables you to set up your website. </p>
+                        <hr class="left">
+                </div>
+                <div>
+                    <h3>Hire an expert</h3>
+                    <p>You need a professional to help you create,and <br> manage your website.</p>
+                    <hr class="right">
+                </div>
+            </div>
+        </section>
+        <aside class="see-more">
+            <a href="#">See More</a>
+        </aside>
+
+
+        <section class="hire-expert">
+            <div class="hire-left">
+                <h2>Hire An Expert</h2>
+                <ul>
+                    <li>Are you a marketer and still aren’t equipped to <br> the use of technology. Hire an expert to help <br> you in creating, and managing your website</li>
+                    <li>You need a professional to help you to create, <br> and manage your website</li>
+                    <li>Want to create a path way to the future <br>through  technology</li>
+                </ul>
+            </div>
+            <div class="hire-right">
+                <img src="{% static 'images/features/Frame.svg' %}" alt="see more">
+            </div>
+        </section>
+        <aside class="hire-btn">
+            <button> <a href="#">Hire an Expert</a></button>
+        </aside>
+
+        <section class="blue-content">
+            <h2>Own Your Own Content</h2>
+            <p>Whatever you create with WebBuilder belongs to you, we do not make use of your <br> personal details or your unique creations. If you’ll like to display your unqiue <br> creation reach us via Email. We’ll be glad to have you display you for other to <br> follow as template.</p>
+
+        </section>
+        <section class="white-content">
+            <h2>Create A Website In Less Than An Hour</h2>
+            <p>Check out mind-blowing templates all made with webBuildr. we’ve taken the stress <br> off you, choose a template and make an easy build</p>
+            <div></div>
+        </section>
+        <section class="blue-content">
+            <h2>You Need Help?</h2>
+            <p>support is available at any time of the day for all users. visit our social media <br> platform contact via Email. Comments and feedback can also be shared via <br> Email.</p>
+        </section>
+        <section class="white-content">
+            <h2>Contact Us</h2>
+            <p>Feel free to contact us on all our social media platforms. It promises to be <br> engaging with many resources that will help you navigate through,get <br> mentors and connect with people with like minds.</p>
+            <div class="contact">
+                <p><span> <img src="{% static 'images/features/call.png' %}" alt="Telephone"> </span>+234 815 3648 465</p>
+                <p><span> <img src="{% static 'images/features/instagram.png' %}" alt="Instagram"> </span>WebBuildr</p>
+                <p><span> <img src="{% static 'images/features/facebook.png' %}" alt="Facebook"> </span>WebBuildr</p>
+            </div>
+        </section>
+    </main>
+{% endblock content %}
+    
