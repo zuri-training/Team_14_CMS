@@ -58,3 +58,7 @@ def hire_an_expert_page(request):
 def resource_page(request):
     """ Function to render the resource page """
     return render(request, 'cmsapp/404.html')
+
+def display_error(request):
+    """ Function for displaying the error page """
+    return render(request, 'cmsapp/404.html')

@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'website/back.html' %}
 {% block title %}Editing the webpage {% endblock title %}
 {% block content %}
 {% load static %}
@@ -51,7 +51,13 @@
 		    formData.append('html', editor.getHtml());
 		    formData.append('css', editor.getCss());
 		    formData.append('blog', '{{title}}');
-		    formData.append('title', '{{page.title}}');
+		    const check = confirm("Do you want to change the title?")
+		    if (check) {
+		    	const cont = prompt("What is the name of the page?");
+		    	formData.append('title', cont);
+		    } else {
+		    	formData.append('title', '{{form.title}}');
+		    }
 		    const csrftoken = document.querySelector('[name="csrfmiddlewaretoken"]').value;
 		    const request = new Request (
                              '{% url "update_page" card.pk %}',

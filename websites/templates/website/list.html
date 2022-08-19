@@ -7,12 +7,12 @@
 	<link rel="stylesheet" href="">
 </head>
 <body>
-	{% for i in card %}
+	{% for i in form %}
 		<div>
 			<h1> {{ i.title }}</h1>
 			<div>
-				<a href="">View</a>
-				<a href="">Edit</a>
+				<a href="{% url 'show_webpage' i.pk %}">View</a>
+				<a href="{% url 'display_edit_page' i.pk %}">Edit</a>
 			</div>
 		</div>
 	{% empty %}

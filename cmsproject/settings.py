@@ -156,7 +156,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # LOGIN_REDIRECT_URL = 'landingpage'
 
-LOGOUT_REDIRECT_URL = 'landingpage'
+LOGOUT_REDIRECT_URL = 'cmsapp:landingpage'
 
 # Connecting the base url to the media folder
 

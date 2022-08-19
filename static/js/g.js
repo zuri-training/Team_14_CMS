@@ -4,7 +4,7 @@ var editor = grapesjs.init({
   // As an alternative we could use: `components: '<h1>Hello World Component!</h1>'`,
   fromElement: true,
   // Size of the editor
-  width: 'auto',
+  width: '100vw',
   // Disable the storage manager for the moment
   storageManager: false,
   // Avoid any default panel
