@@ -1,0 +1,106 @@
+{% extends 'website/back.html' %}
+{% block title %}Editing the webpage {% endblock title %}
+{% block content %}
+{% load static %}
+<style type="text/css">
+	/* Let's highlight canvas boundaries */
+	#gjs {
+	  border: 3px solid #444;
+	}
+
+	/* Reset some default styling */
+
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	#gjs {
+		height: 300px;
+	}
+
+	html {
+		/* overflow: scroll; */
+		/* overflow: hidden; */
+		-ms-overflow-style: None;
+		-scrollbar-width:  None;
+	}
+
+	body::-webkit-scrollbar {
+		box-shadow: inset 0 0 6px #b9a5a6;
+		background-color: #b9a5a6;
+	}
+	body::-webkit-scrollbar-thumb{
+		background-color: #b97e76;
+	}
+</style>
+<form method="post" accept-charset="utf-8">
+	{% csrf_token%}
+<div id="gjs">
+	{{ card.html | safe}}
+	<style type="text/css">{{ page.css }}</style>
+</div>
+</form>
+
+{% endblock %}
+{% block scripts %}
+	<script type="text/javascript">
+		function commando() {
+		    console.log(editor.getCss());
+		    console.log(editor.getHtml());
+		    const formData = new FormData();
+		    formData.append('html', editor.getHtml());
+		    formData.append('css', editor.getCss());
+		    formData.append('blog', '{{title}}');
+		    const check = confirm("Do you want to change the title?")
+		    if (check) {
+		    	const cont = prompt("What is the name of the page?");
+		    	formData.append('title', cont);
+		    } else {
+		    	formData.append('title', '{{form.title}}');
+		    }
+		    const csrftoken = document.querySelector('[name="csrfmiddlewaretoken"]').value;
+		    const request = new Request (
+                             '{% url "update_page" card.pk %}',
+                             {
+                             	method:'POST',
+                             	headers: {'X-CSRFToken':csrftoken},
+                             	mode: 'same-origin',
+                             	body: formData,
+                             }
+                );
+		    fetch(request).then((resp)=>resp.json()).then((response)=>{
+		    	console.log(response)
+		    }).catch((error)=>{
+		    	console.log(error)
+		    });
+		};
+	</script>
+	<script type="text/javascript" src="{% static 'js/g.js' %}"></script>
+	<script type="text/javascript">
+		const panelManager = editor.Panels;
+		var newButton = panelManager.addButton('options',{
+			 id:'Saving',
+			 className:'gjs-pn-buttons bananas',
+			 attributes:{
+			  title:'Save',
+			  style:'width:100%; backgroundcolor:blue;',
+			  onclick: 'commando()',
+			  type:'submit',
+			},
+			label:'<button>Update</button>',
+			active:true
+		});
+		document.querySelector('.bananas').children[0].setAttribute('style','backgroundcolor: Blue;')
+		const blockManager = editor.Blocks;
+		blockManager.render([{
+		  label: 'Heading',
+		  content: "{% include 'high.html' %}" ,
+		  category: 'Blog',
+		  attributes: {
+		    title: 'Insert h1 block',
+		  },
+		}])
+		</script>
+		<script>
+	</script>
+{% endblock scripts %}

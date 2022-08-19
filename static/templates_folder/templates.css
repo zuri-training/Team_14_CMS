@@ -215,9 +215,10 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     opacity: 0;
-    transition: opacity 0.25s
+    transition: opacity 0.25s;
+    border-radius: inherit;
 }
 .image__overlay:hover{ 
     opacity: 1;

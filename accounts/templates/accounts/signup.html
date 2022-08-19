@@ -39,12 +39,16 @@
           <form action="" method="POST" class="form-body">
                 {% csrf_token %}
                 {{ form.non_field_errors }}
+                {{ form.first_name.errors }}
+                {{ form.last_name.errors }}
+                {{ form.email.errors }}
+                {{ form.username.errors }}
+                {{ form.password1.errors }}
+                {{ form.password2.errors }}
 
 
 
             <div class="form-division"> 
-              {{ form.first_name.errors }}
-              {{ form.last_name.errors }}
               <div class="form-group dv1">
                 <input
                   type="text"
@@ -67,8 +71,6 @@
               </div>
             </div>
             <div class="form-division"> 
-                {{ form.email.errors }}
-                {{ form.username.errors }}
               <div class="form-group dv1">
                 <input
                   type="text"
@@ -90,8 +92,6 @@
               </div>
             </div>
             <div class="form-division"> 
-              {{ form.password1.errors }}
-              {{ form.password2.errors }}
               <div class="form-group dv1">
                 <input
                   class="form-control"

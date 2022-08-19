@@ -1,5 +1,8 @@
 /* header section */
 
+body {
+    width:  100%;
+}
 /* NAV STYLES */
 .back {
     width: 186px;
