@@ -480,3 +480,323 @@ textarea {
 
 }
 
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width:375px) {
+    .underline{
+        width: 100%; 
+        max-width: 337px;
+    }
+
+    .portfolio-img{
+        width: 100%;
+        max-width: 342px;
+        height: 177px;
+        margin-left: auto;
+    }
+
+    .img1{
+        width: 100%;
+        max-width: 167.55px;
+        height: 177px;
+        background-image: url('./images/Rectangle\ 111.png');
+        background-repeat: round;
+    }
+
+    .img2{
+        width: 100%;
+        max-width: 167.55px;
+        height: 177px;
+        background-image: url('./images/Rectangle\ 109.png');
+        background-repeat: round;
+    }
+
+        .img-name {
+            margin-top: 42px;
+            margin-left: 23.58px;
+        }
+
+        
+    .arianne {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 6px;
+    }
+
+
+        .product {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 6px;
+        }
+    
+        .solving {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+        }
+    
+        footer {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 12px;
+            margin-top: 10px;
+            margin-left: 60px;
+        }
+
+
+                .recent {
+                    width: 100%;
+                        max-width: 342px;
+                        height: 177px;
+                        margin-left: -45px;
+                }
+        
+        
+                .recent-work {
+                    width: 82.03px;
+                    height: 36px;
+                    font-weight: 400;
+                        font-size: 12px;
+                        line-height: 12px;
+                }
+        
+        
+                .recent-line {
+                    width: 36px;
+                    height: 1px;
+                    margin-top: 44px;
+                    margin-right: 45px;
+                }
+        
+                .recent-numbers {
+                    display: flex;
+                }
+
+        .num1 {
+            margin-right: 14px
+        }
+
+        .my-story,
+        .story-line,
+        .story-head,
+        .story-info {
+            display: none;
+        }
+
+        .look-head h1 {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 12px;
+            width: 194px;
+            height: 18px;
+            margin-top: 45px;
+        }
+    
+    
+        .look-head p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 12px;
+            width: 342px;
+            height: 72px;
+            margin-bottom: -60px;
+        }
+
+                .blue-div {
+                    width: 342px;
+                    height: 176px;
+                    overflow: visible;
+                    margin-top: 100px;
+                    margin-left: 15px;
+                    margin-right: 23px;
+                }
+        
+                .blue-details1 {
+                    position: absolute;
+                    left: 22px;
+                    top: 480px;
+                    width: 108.11px;
+                    height: 163.21px;
+                }
+
+                .blue-details1 img{
+                    width: 100%;
+                }
+        
+                .blue-div p {
+                    padding-left: 10px;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 12px;
+                }
+        
+        
+                .blue-details2 {
+                    position: absolute;
+                    left: 139.1px;
+                        top: 480px;
+                        width: 108.11px;
+                        height: 163.21px;
+                }
+
+                .blue-details2 img{
+                    width: 100%;
+                }
+        
+        
+                .blue-details3 {
+                    position: absolute;
+                    left: 257px;
+                        top: 480px;
+                        width: 108.11px;
+                        height: 163.21px;
+                }
+
+                .blue-details3 img {
+                    width: 100%;
+                }
+
+                .blue-details4 {
+                    position: absolute;
+                    left: 22px;
+                        top: 755px;
+                        width: 108.11px;
+                        height: 163.21px;
+                }
+
+                .blue-details4 img {
+                    width: 100%;
+                }
+
+                .blue-details5 {
+                    position: absolute;
+                    left: 139.1px;
+                        top: 755px;
+                        width: 108.11px;
+                        height: 163.21px;
+                }
+
+                
+                .blue-details5 img {
+                    width: 100%;
+                }
+
+                .blue-details5 button {
+                    display: none;
+                }
+
+
+                .blue-details6 {
+                    position: absolute;
+                    left: 257px;
+                        top: 755px;
+                        width: 108.11px;
+                        height: 163.21px;
+                }
+
+                .blue-details6 img {
+                    width: 100%;
+                }
+
+                .best-brand {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    width: 337px;
+                    height: 28px;
+                    margin-left: auto;
+                }
+
+                .client-say{
+                    margin-left: auto;
+                }
+
+                .client-say h1{
+                    display: none;
+                }
+
+                .client-say p{
+                    font-weight: 400;
+                        font-size: 16px;
+                        line-height: 12px;
+                        width: 341px;
+                    height: 40px;
+                    margin:auto;
+                }
+
+                .client-img1 img{
+                    max-width: 164px;
+                    width: 100%;
+                        height: 299px;
+                        margin-top: 30px;
+                }
+
+                .client-body{
+                    width: 340px;
+                        height: 419px;
+                        padding-top: 40px;
+                }
+
+                .got-project{
+                    width: 336px;
+                    height: 420px;
+                }
+
+                .div-1{
+                    margin-left: -155px;
+                }
+
+                .div-2{
+                    display: none;
+                }
+
+                .lets-connect{
+                    width: 343px;
+                }
+
+        .connect-head {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            margin-left: 65.5px;
+            width: 237px;
+            height: 28px;
+        }
+    
+        .connect-socials {
+            margin-left: 5px;
+            margin-right: 0px;
+            margin-top: 30px;
+        }
+    
+    
+        .socials1 {
+    
+            width: 110.14px;
+            height: 53.1px;
+            left: 9px;
+            top: 3677px;
+            background: #F5F6F8;
+            box-shadow: 0px 9.40606px 47.0303px rgba(0, 0, 0, 0.25);
+            display: flex;
+            justify-content: space-between;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-right: 5px;
+            overflow: hidden;
+        }
+
+        .social-underline{
+            width: 320px;
+        }
+
+}
